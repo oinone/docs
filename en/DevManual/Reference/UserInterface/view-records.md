@@ -1,6 +1,6 @@
 ---
 title: View records
-index: true
+index: false
 category:
   - 研发手册
   - Reference
@@ -8,5 +8,7 @@ category:
 order: 1
 prev:
   text: User interface
-  link: /zh-cn/DevManual/Reference/UserInterface/README.md
+  link: /en/DevManual/Reference/UserInterface/README.md
 ---
+
+The document is currently in preparation, please stay tuned ...

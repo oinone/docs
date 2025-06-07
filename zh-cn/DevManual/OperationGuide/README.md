@@ -1,11 +1,11 @@
 ---
 title: 操作指南
-index: true
+index: false
 category:
   - 研发手册
   - 操作指南
 dir:
-  link: true
+  link: false
   order: 2
 prev:
   text: 调试工具

@@ -1,12 +1,13 @@
 ---
 title: User interface
-index: true
+index: false
 category:
   - 研发手册
   - Reference
   - User interface
 dir:
-  link: true
+  index: false
+  link: false
   order: 3
 prev:
   text: Translate Service

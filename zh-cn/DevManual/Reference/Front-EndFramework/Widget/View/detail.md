@@ -1,6 +1,6 @@
 ---
 title: Detail
-index: true
+index: false
 category:
   - 研发手册
   - Reference
@@ -10,3 +10,5 @@ category:
 order: 3
 
 ---
+
+文档正在筹备中，敬请期待...

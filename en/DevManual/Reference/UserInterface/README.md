@@ -1,17 +1,18 @@
 ---
 title: User interface
-index: true
+index: false
 category:
   - 研发手册
   - Reference
   - User interface
 dir:
-  link: true
+  index: false
+  link: false
   order: 3
 prev:
   text: Translate Service
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Services/translate-service.md
+  link: /en/DevManual/Reference/Front-EndFramework/Services/translate-service.md
 next:
   text: View records
-  link: /zh-cn/DevManual/Reference/UserInterface/view-records.md
+  link: /en/DevManual/Reference/UserInterface/view-records.md
 ---

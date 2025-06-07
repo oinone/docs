@@ -7,7 +7,7 @@ category:
 order: 1
 prev:
   text: 组件介绍
-  link: /zh-cn/UserManual/Designers/UIDesigner/Components/README.md
+  link: /en/UserManual/Designers/UIDesigner/Components/README.md
 ---
 布局类组件主要用于页面的样式排版，它们相当于一个容器，可以容纳多个其他组件。同时，布局类组件之间支持互相嵌套，以便用户更灵活地构建页面结构和布局。
 

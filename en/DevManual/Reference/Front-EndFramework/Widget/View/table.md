@@ -1,6 +1,6 @@
 ---
 title: Table
-index: true
+index: false
 category:
   - 研发手册
   - Reference
@@ -10,5 +10,7 @@ category:
 order: 1
 prev:
   text: View
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/README.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/View/README.md
 ---
+
+The document is currently in preparation, please stay tuned ...

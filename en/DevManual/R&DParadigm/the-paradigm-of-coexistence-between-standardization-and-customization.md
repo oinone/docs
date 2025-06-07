@@ -7,7 +7,7 @@ category:
 order: 5
 next:
   text: 常见解决方案
-  link: /zh-cn/DevManual/CommonSolutions/README.md
+  link: /en/DevManual/CommonSolutions/README.md
 ---
 # 一、引言
 

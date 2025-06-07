@@ -7,7 +7,7 @@ category:
 order: 6
 next:
   text: 最佳范式
-  link: /zh-cn/DevManual/R&DParadigm/README.md
+  link: /en/DevManual/R&DParadigm/README.md
 ---
 ## 一、平台内置错误码
 

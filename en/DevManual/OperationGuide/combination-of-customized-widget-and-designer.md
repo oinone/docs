@@ -7,10 +7,10 @@ category:
 order: 7
 prev:
   text: 组件暗黑主题变量
-  link: /zh-cn/DevManual/OperationGuide/CustomizeThemes/dark-themes.md
+  link: /en/DevManual/OperationGuide/CustomizeThemes/dark-themes.md
 next:
   text: 参考指南
-  link: /zh-cn/DevManual/Reference/README.md
+  link: /en/DevManual/Reference/README.md
 ---
 在 Oinone 提供的 `界面设计器` 中，可以自由的对组件进行切换，包括视图组件、布局组件、字段组件这三类。
 

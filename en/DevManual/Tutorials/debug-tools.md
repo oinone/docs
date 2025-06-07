@@ -7,5 +7,5 @@ category:
 order: 9
 next:
   text: 操作指南
-  link: /zh-cn/DevManual/OperationGuide/README.md
+  link: /en/DevManual/OperationGuide/README.md
 ---

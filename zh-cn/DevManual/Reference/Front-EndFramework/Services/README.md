@@ -1,13 +1,13 @@
 ---
 title: 服务（Services）
-index: true
+index: false
 category:
   - 研发手册
   - Reference
   - 前端API
   - Services
 dir:
-  link: true
+  link: false
   order: 6
 prev:
   text: Vue UI

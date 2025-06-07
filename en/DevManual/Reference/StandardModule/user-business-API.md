@@ -8,7 +8,7 @@ category:
 order: 1
 prev:
   text: 标准模块（Standard Modules）
-  link: /zh-cn/DevManual/Reference/StandardModule/README.md
+  link: /en/DevManual/Reference/StandardModule/README.md
 ---
 # 一、概述
 

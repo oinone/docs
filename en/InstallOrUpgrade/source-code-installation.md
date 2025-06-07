@@ -146,8 +146,6 @@ order: 3
   </tbody>
 </table>
 
-
-
 # 五、获取源
 获取数式Oinone的源代码有两种方式：ZIP **压缩包** 或通过**Git**。这里介绍Git为主
 

@@ -49,6 +49,7 @@ cdn:
 ```
 
 ## （二）NGINX配置（MINIO配置）
+
 ```nginx
 upstream minio {
   #真实的MINIO的地址

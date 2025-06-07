@@ -1,12 +1,12 @@
 ---
 title: 前端API（Front-End framework）
-index: true
+index: false
 category:
   - 研发手册
   - Reference
   - 前端API
 dir:
-  link: true
+  link: false
   order: 2
 prev:
   text: 通用工具 API（Tools API）

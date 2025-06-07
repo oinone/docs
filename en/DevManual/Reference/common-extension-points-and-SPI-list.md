@@ -6,8 +6,8 @@ category:
   - Reference
 order: 5
 prev:
-  text: 通用扩展点与平台SPI清单（Common Extension Points And SPI List）
-  link: /zh-cn/DevManual/Reference/StandardModule/EIP-API.md
+  text: 集成接口 API（EIP API）
+  link: /en/DevManual/Reference/StandardModule/EIP-API.md
 ---
 # 一、SPI 机制
 

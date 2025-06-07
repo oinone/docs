@@ -537,7 +537,7 @@ export class BreadcrumbWidget extends MaskWidget
   - `model`：模型名称。
   - `action`：动作名称。
 
-#### **reloadMaskProcess **
+#### **reloadMaskProcess**
 
 + **功能描述**：重新加载遮罩层处理。
 + **类型**：`(reloadParameters: ReloadMaskCallChainingParameters) => Promise<void>`

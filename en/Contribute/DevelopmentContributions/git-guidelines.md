@@ -7,7 +7,7 @@ category:
 order: 1
 prev:
   text: 研发贡献
-  link: /zh-cn/Contribute/DevelopmentContributions/README.md
+  link: /en/Contribute/DevelopmentContributions/README.md
 ---
 #### 1. **代码提交规范**
 

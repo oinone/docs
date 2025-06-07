@@ -7,7 +7,7 @@ category:
 order: 8
 next:
   text: 常见问题
-  link: /zh-cn/InstallOrUpgrade/FAQ.md
+  link: /en/InstallOrUpgrade/FAQ.md
 ---
 # 一、下载安装包
 下载地址 [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)

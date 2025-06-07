@@ -9,7 +9,7 @@ category:
 order: 10
 next:
   text: 前端 API（Front-End framework）
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/README.md
+  link: /en/DevManual/Reference/Front-EndFramework/README.md
 ---
 Oinone 业务常用工具类 API 文档指南
 

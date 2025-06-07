@@ -1,6 +1,6 @@
 ---
 title: UI icons
-index: true
+index: false
 category:
   - 研发手册
   - Reference
@@ -8,5 +8,7 @@ category:
 order: 3
 next:
   text: 标准模块（Standard Modules）
-  link: /zh-cn/DevManual/Reference/StandardModule/README.md
+  link: /en/DevManual/Reference/StandardModule/README.md
 ---
+
+The document is currently in preparation, please stay tuned ...

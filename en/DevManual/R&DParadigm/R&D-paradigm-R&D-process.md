@@ -7,7 +7,7 @@ category:
 order: 1
 prev:
   text: 最佳范式
-  link: /zh-cn/DevManual/R&DParadigm/README.md
+  link: /en/DevManual/R&DParadigm/README.md
 ---
 # 一、前后端分离架构
 

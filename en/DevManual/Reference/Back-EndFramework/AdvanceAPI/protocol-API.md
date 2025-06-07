@@ -9,7 +9,7 @@ category:
 order: 1
 prev:
   text: 高级 API（Advance API）
-  link: /zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/README.md
+  link: /en/DevManual/Reference/Back-EndFramework/AdvanceAPI/README.md
 ---
 # 一、请求 URL 规范
 

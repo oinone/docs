@@ -7,7 +7,7 @@ category:
 order: 1
 prev:
   text: 教程（Tutorials）
-  link: /zh-cn/DevManual/Tutorials/README.md
+  link: /en/DevManual/Tutorials/README.md
 ---
 # 一、概述
 根据预期的使用场景，安装数式Oinone有多种方式。对于数式Oinone的开发者以及数式Oinone员工来说，首选的方式还是用源码安装。

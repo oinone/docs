@@ -1,18 +1,18 @@
 ---
 title: 服务（Services）
-index: true
+index: false
 category:
   - 研发手册
   - Reference
   - 前端API
   - Services
 dir:
-  link: true
+  link: false
   order: 6
 prev:
   text: Vue UI
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/vue-UI.md
+  link: /en/DevManual/Reference/Front-EndFramework/OioComponents/vue-UI.md
 next:
   text: Metadata Service
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Services/metadata-service.md
+  link: /en/DevManual/Reference/Front-EndFramework/Services/metadata-service.md
 ---

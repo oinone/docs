@@ -6,10 +6,10 @@ category:
 order: 9
 prev:
   text: Maven安装与注意事项
-  link: /zh-cn/InstallOrUpgrade/Dev-ENV/Maven-setup.md
+  link: /en/InstallOrUpgrade/Dev-ENV/Maven-setup.md
 next:
   text: 用户手册
-  link: /zh-cn/UserManual/README.md
+  link: /en/UserManual/README.md
 ---
 # 一、网络不通：检查防火墙（以CentOS7为例）
 ## （一）查看防火墙是否开启

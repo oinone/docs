@@ -10,7 +10,7 @@ category:
 order: 5
 next:
   text: Oio 组件（Oio Components）
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/README.md
+  link: /en/DevManual/Reference/Front-EndFramework/OioComponents/README.md
 ---
 # 一、Reference List
 

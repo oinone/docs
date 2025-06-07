@@ -6,10 +6,10 @@ category:
 order: 1
 prev:
   text: 贡献手册
-  link: /zh-cn/Contribute/README.md
+  link: /en/Contribute/README.md
 next:
   text: 研发贡献
-  link: /zh-cn/Contribute/DevelopmentContributions/README.md
+  link: /en/Contribute/DevelopmentContributions/README.md
 ---
 # Oinone 贡献者许可协议
 

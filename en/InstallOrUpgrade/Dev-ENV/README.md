@@ -9,7 +9,7 @@ dir:
   order: 8
 next:
   text: JDK安装与注意事项
-  link: /zh-cn/InstallOrUpgrade/Dev-ENV/JDK-setup.md
+  link: /en/InstallOrUpgrade/Dev-ENV/JDK-setup.md
 ---
 # 一、运行环境
 

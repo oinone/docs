@@ -8,7 +8,7 @@ dir:
   order: 1
 next:
   text: 快速体验：docker-full方式安装
-  link: /zh-cn/InstallOrUpgrade/docker-full-installation.md
+  link: /en/InstallOrUpgrade/docker-full-installation.md
 ---
 这些指南提供了关于如何安装、维护和升级数式Oinone产品的说明。
 

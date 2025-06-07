@@ -6,7 +6,7 @@ category:
 order: 1
 prev:
   text: 安装与升级
-  link: /zh-cn/InstallOrUpgrade/README.md
+  link: /en/InstallOrUpgrade/README.md
 ---
 # 一、概述
 每个构建版本都隔离在其自己的容器（Linux 命名空间容器）中。本文档提供如何安装“包含所有中间件及前后端工程”镜像的说明

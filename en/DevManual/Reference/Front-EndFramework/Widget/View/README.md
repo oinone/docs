@@ -12,10 +12,10 @@ dir:
   order: 6
 prev:
   text: DSL
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/DSL.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/DSL.md
 next:
   text: Table
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/table.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/View/table.md
 
 ---
 在我们之前学习的 “[精通前端框架 - 前端框架概览](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter1-front-end-overview.md)” 章节中，我们已经对 Oinone 中所有的元数据进行了简单的概述。那么，在这一章节中，我们将对 “视图” 这一类组件进行较为完整的介绍。
@@ -218,6 +218,8 @@ next:
 
 虽然无形中增加了开发难度，但与此同时也带来了一些便利：单个组件的复用度得到了提升，开发人员可以像任何一个第三方组件库那样提供一个一个的独立组件供业务人员使用。这在一个交互风格统一的管理信息系统中无疑是一个重大的提升。
 
+<div style="display: none">
+
 # 三、视图组件的工作原理
 
 正如我们在组件生命周期与组件行为小节中看到的示例那样，单独介绍 View 视图组件的工作原理是没有意义的，每一类视图都需要依靠一个 Element 视图组件进行具像化的展现。关于每一类视图的工作原理可查看下面这些内容：
@@ -229,7 +231,9 @@ next:
 + [树（Tree）](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/tree.md)
 + [Element 视图组件 API](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md)
 
-# 四 、Reference List
+</div>
+
+# 三 、Reference List
 
 ## （一）抽象基类
 
