@@ -9,7 +9,7 @@ dir:
   order: 8
 next:
   text: JDK安装与注意事项
-  link: /zh-cn/InstallOrUpgrade/Dev-ENV/JDK-setup.md
+  link: /en/InstallOrUpgrade/Dev-ENV/JDK-setup.md
 ---
 # 一、运行环境
 
@@ -24,7 +24,7 @@ next:
 
 Java基础运行环境。用于编译、启动设计器与业务应用。
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/JDK-setup.md)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/JDK-setup.md)
   </div>
 
   <div style="flex: 1; background: #f8f9fa; border-radius: 8px; padding: 16px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
@@ -36,7 +36,7 @@ Java基础运行环境。用于编译、启动设计器与业务应用。
 
 用于存储模型相关元数据与业务数据。
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
   </div>
 
   <div style="flex: 1; background: #f8f9fa; border-radius: 8px; padding: 16px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
@@ -48,7 +48,7 @@ Java基础运行环境。用于编译、启动设计器与业务应用。
 
 Apache出品的一款具有高吞吐、低延迟的分布式消息队列中间件。用于异步解耦，事件驱动等场景。
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/RocketMQ-setup.md)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/RocketMQ-setup.md)
   </div>
 </div>
 
@@ -63,7 +63,7 @@ Apache出品的一款具有高吞吐、低延迟的分布式消息队列中间�
 
 高性能内存数据库，用于缓存热点元数据、业务数据，还可用于分布式锁。
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/Redis-setup.md)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/Redis-setup.md)
   </div>
 
   <div style="flex: 1; background: #f8f9fa; border-radius: 8px; padding: 16px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
@@ -75,7 +75,7 @@ Apache出品的一款具有高吞吐、低延迟的分布式消息队列中间�
 
 分布式协调服务。用于注册分发远程服务、分布式锁、事件监听等场景。
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/Zookeeper-setup.md)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/Zookeeper-setup.md)
   </div>
 
 </div>
@@ -106,7 +106,7 @@ Java集成开发环境, 可选用Ultimate或者Community版本。
 
 :::
 
-[安装与注意事项](/zh-cn/DevManual/Tutorials/setup-guide.md#三、后端额外工具)
+[安装与注意事项](/en/DevManual/Tutorials/setup-guide.md#三、后端额外工具)
   </div>
 
   <div style="flex: 1; background: #f8f9fa; border-radius: 8px; padding: 16px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
@@ -118,7 +118,7 @@ Java集成开发环境, 可选用Ultimate或者Community版本。
 
 源码版本管理工具
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/Git-setup.md)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/Git-setup.md)
 
   </div>
 
@@ -131,7 +131,7 @@ Java集成开发环境, 可选用Ultimate或者Community版本。
 
 工程、构建、依赖管理工具
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/Maven-setup.md)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/Maven-setup.md)
 
   </div>
 
@@ -176,7 +176,7 @@ Insomnia、Postman或者其他支持发起GQL请求的工具。
 
 一个基于 Chrome V8 引擎的高性能 JavaScript 运行时，支持非阻塞 I/O，广泛用于构建高并发的后端服务和微服务架构。
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/Node.js-setup.md)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/Node.js-setup.md)
 
   </div>
 
@@ -190,7 +190,7 @@ vue脚手架工具
 
 Vue.js 官方提供的脚手架工具，支持项目快速初始化、配置管理和插件扩展，简化 Vue 项目的开发与构建流程
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/Node.js-setup.md#三、进阶)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/Node.js-setup.md#三、进阶)
 
   </div>
 
@@ -204,7 +204,7 @@ Vue.js 官方提供的脚手架工具，支持项目快速初始化、配置管�
 
 Node.js 版本管理工具，支持在同一设备上安装、切换和管理多个 Node.js 版本。
 
-[安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/Node.js-setup.md#三、进阶)
+[安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/Node.js-setup.md#三、进阶)
 
   </div>
 

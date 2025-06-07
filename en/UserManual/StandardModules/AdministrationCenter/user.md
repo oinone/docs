@@ -6,7 +6,7 @@ category:
 order: 1
 prev:
   text: 管理中心
-  link: /zh-cn/UserManual/StandardModules/AdministrationCenter/README.md
+  link: /en/UserManual/StandardModules/AdministrationCenter/README.md
 ---
 ### 1.功能介绍
 支持创建系统用户，方便对系统进行访问和管理。

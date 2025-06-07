@@ -7,10 +7,10 @@ category:
 order: 1
 prev:
   text: 文档贡献
-  link: /zh-cn/Contribute/DocumentationContributions/README.md
+  link: /en/Contribute/DocumentationContributions/README.md
 next:
   text: 软件使用许可和合约
-  link: /zh-cn/software-licenses.md
+  link: /en/software-licenses.md
 ---
 #### **一、文档类型与对应模板**
 
@@ -115,6 +115,7 @@ next:
 + **Markdown校验**：VS Code插件 `Markdown All in One` + `markdownlint`。
 + **绘图工具**：PlantUML（流程图）、Draw.io（架构图）。
 + **本地预览**：VuePress本地服务器实时渲染。
+
 
 
 

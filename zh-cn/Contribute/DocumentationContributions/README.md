@@ -1,10 +1,10 @@
 ---
 title: 文档贡献
-index: true
+index: false
 category:
   - 贡献手册
 dir:
-  link: true
+  link: false
   order: 3
 prev:
   text: Coding guidelines

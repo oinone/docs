@@ -1,9 +1,9 @@
 ---
 title: 研发贡献
-index: true
+index: false
 category:
   - 贡献手册
 dir:
-  link: true
+  link: false
   order: 2
 ---

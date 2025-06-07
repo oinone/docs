@@ -6,7 +6,7 @@ category:
 order: 81
 next:
   text: 常见问题
-  link: /zh-cn/DevManual/FAQ/README.md
+  link: /en/DevManual/FAQ/README.md
 ---
 
 # 一、简介

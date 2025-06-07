@@ -52,7 +52,7 @@ order: 2
 </template>
 ```
 
-更多使用方式，可参考：[Element Plus ColorPicker 取色器 For Vue](https://cn.element-plus.org/zh-CN/component/color-picker.html)
+更多使用方式，可参考：[Element Plus ColorPicker 取色器 For Vue](https://cn.element-plus.org/en/component/color-picker.html)
 
 #### **API**
 

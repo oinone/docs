@@ -1,16 +1,16 @@
 ---
 title: 参考指南（Reference）
-index: true
+index: false
 category:
   - 研发手册
   - Reference
 dir:
-  link: true
+  link: false
   order: 3
 prev:
   text: 自定义组件与设计器结合
-  link: /zh-cn/DevManual/OperationGuide/combination-of-customized-widget-and-designer.md
+  link: /en/DevManual/OperationGuide/combination-of-customized-widget-and-designer.md
 next:
   text: 后端API（Back-End framework）
-  link: /zh-cn/DevManual/Reference/Back-EndFramework/README.md
+  link: /en/DevManual/Reference/Back-EndFramework/README.md
 ---

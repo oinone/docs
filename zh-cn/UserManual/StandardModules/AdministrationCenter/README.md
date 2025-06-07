@@ -1,11 +1,11 @@
 ---
 title: 管理中心
-index: true
+index: false
 category:
   - 用户手册
   - 标准模块
 dir:
-  link: true
+  link: false
   order: 4
 next:
   text: '用户'

@@ -1,12 +1,12 @@
 ---
 title: 后端
-index: true
+index: false
 category:
   - 研发手册
   - 常见解决方案
   - 后端
 dir:
-  link: true
+  link: false
   order: 2
 prev:
   text: 路由扩展：添加新路由，比如覆盖默认的登录页

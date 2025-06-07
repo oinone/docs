@@ -6,7 +6,7 @@ category:
 order: 15
 next:
   text: 后端
-  link: /zh-cn/DevManual/CommonSolutions/Back-End/README.md
+  link: /en/DevManual/CommonSolutions/Back-End/README.md
 ---
 # 一、问题概述
 在 Oinone 平台内置路由中，默认了三种路由

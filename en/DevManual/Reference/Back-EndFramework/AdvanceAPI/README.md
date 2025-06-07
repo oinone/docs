@@ -1,15 +1,15 @@
 ---
 title: 高级 API（Advance API）
-index: true
+index: false
 category:
   - 研发手册
   - Reference
   - 后端API
   - Advance API
 dir:
-  link: true
+  link: false
   order: 7
 next:
   text: 网关协议 API（Protocol API）
-  link: /zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/protocol-API.md
+  link: /en/DevManual/Reference/Back-EndFramework/AdvanceAPI/protocol-API.md
 ---

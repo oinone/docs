@@ -18,7 +18,7 @@ order: 6
 
 # 一、表格视图
 
-参考：与此主题相关的文档可在 “[表格视图](/zh-cn/DevManual/Reference/UserInterface/view-architectures.md)” 中找到。
+参考：与此主题相关的文档可在 “[表格视图](/en/DevManual/Reference/UserInterface/view-architectures.md)” 中找到。
 
 :::info 目标：在本节结束时，表格视图应呈现如下效果：
 
@@ -54,7 +54,7 @@ order: 6
 </view>
 ```
 
-在搜索字段定义中，添加 `operator=X` 选项，其中 `X` 可以接受一个支持的[RSQL](/zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/protocol-API.md#1、rsql-基础概念)的操作符，字符串默认为"=like="，"=="表示全匹配过滤。
+在搜索字段定义中，添加 `operator=X` 选项，其中 `X` 可以接受一个支持的[RSQL](/en/DevManual/Reference/Back-EndFramework/AdvanceAPI/protocol-API.md#1、rsql-基础概念)的操作符，字符串默认为"=like="，"=="表示全匹配过滤。
 
 任何模型只要有访问路径则可以在数据库中找到一个简单示例，即该模型对应的默认视图。
 
@@ -86,7 +86,7 @@ mysql> select template from base_view where model='expenses.TestModel' and name 
 
 # 二、表单视图
 
-参考：与此主题相关的文档可在 “[表单视图](/zh-cn/DevManual/Reference/UserInterface/view-architectures.md)” 中找到。
+参考：与此主题相关的文档可在 “[表单视图](/en/DevManual/Reference/UserInterface/view-architectures.md)” 中找到。
 
 :::info 目标：在本节结束时，表单视图应呈现如下效果：
 

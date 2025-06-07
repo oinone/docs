@@ -194,7 +194,7 @@ cdn:
     referer:
 ```
 
-注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 # 四、OSS代码示例
 后台要直接上传文件到 OSS，通过`FileClientFactory.getClient()`获取系统配置的文件系统的客户端

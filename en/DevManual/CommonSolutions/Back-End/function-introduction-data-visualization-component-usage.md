@@ -9,7 +9,7 @@ order: 2
 
 在业务工程的pom中增加数据可视化运行的依赖包
 
-参考文档 [如何添加数据可视化运行时依赖](/zh-cn/DevManual/CommonSolutions/Back-End/dependency-configuration-how-to-add-data-visualization-dependencies.md)
+参考文档 [如何添加数据可视化运行时依赖](/en/DevManual/CommonSolutions/Back-End/dependency-configuration-how-to-add-data-visualization-dependencies.md)
 
 # 二、数据可视化设计图表、报表和数据大屏
 

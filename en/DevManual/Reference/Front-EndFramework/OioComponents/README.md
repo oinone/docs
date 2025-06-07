@@ -11,10 +11,10 @@ dir:
   order: 5
 prev:
   text: Gallery Field
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/gallery-field.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/Field/gallery-field.md
 next:
   text: Vue UI Antd
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/vue-UI-antd.md
+  link: /en/DevManual/Reference/Front-EndFramework/OioComponents/vue-UI-antd.md
 ---
 # 一、Reference List
 

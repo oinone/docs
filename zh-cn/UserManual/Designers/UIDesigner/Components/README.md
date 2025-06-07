@@ -1,11 +1,11 @@
 ---
 title: 组件介绍
-index: true
+index: false
 category:
   - 用户手册
   - 设计器
 dir:
-   link: true
+   link: false
    order: 5
 next:
   text: 布局

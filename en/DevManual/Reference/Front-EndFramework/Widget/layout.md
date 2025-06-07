@@ -208,15 +208,15 @@ order: 4
 
 关于 **布局组件** 相关的 API 请参考：
 
-+ [View](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/README.md)
-+ [Element](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md)
-+ [Pack](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/pack.md)
++ [View](/en/DevManual/Reference/Front-EndFramework/Widget/View/README.md)
++ [Element](/en/DevManual/Reference/Front-EndFramework/Widget/element.md)
++ [Pack](/en/DevManual/Reference/Front-EndFramework/Widget/pack.md)
 
 # 三、插槽
 
 在布局中通过定义 `slot` 属性以及 `xslot` 标签可以将 `DSL` 中定义的元数据片段插入到相应的位置，这也称为 **插槽** 。
 
-关于 **插槽** 相关介绍请参考：[DSL](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/DSL.md)
+关于 **插槽** 相关介绍请参考：[DSL](/en/DevManual/Reference/Front-EndFramework/Widget/DSL.md)
 
 # 四、注册布局
 
@@ -302,7 +302,7 @@ export interface LayoutRegisterOptions extends SPIOptions {
 
 ## （二）使用 registerLayout 注册布局
 
-下面是我们在 “[探索前端框架 - 组件](/zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter1-widget.md)” 中注册的布局：
+下面是我们在 “[探索前端框架 - 组件](/en/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter1-widget.md)” 中注册的布局：
 
 ```typescript
 import { registerLayout, ViewType } from '@kunlun/dependencies';

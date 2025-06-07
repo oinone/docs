@@ -8,7 +8,7 @@ category:
 order: 3
 next:
   text: 模块数据初始化（Init Module Data）
-  link: /zh-cn/DevManual/Tutorials/init-module-data.md
+  link: /en/DevManual/Tutorials/init-module-data.md
 ---
 在 Oinone 中，画廊视图是一种通过卡片形式展示数据的视图类型。通过`界面设计器`或后端 `DSL` 同样可以对卡片内容进行设计，但这有时并不能满足我们的业务场景，毕竟并不是所有卡片都设计的那么“整齐”。那么，对画廊视图的卡片进行定制化开发，从某种程度上来说，这是非常有必要的。
 
@@ -28,11 +28,11 @@ next:
 
 这些准备工作并不是这个练习需要学习的内容，如果你对这些内容还不是很熟悉，这里有些学习内容供你参考：
 
-[模型设计器使用手册](/zh-cn/UserManual/Designers/ModelDesigner/README.md)
+[模型设计器使用手册](/en/UserManual/Designers/ModelDesigner/README.md)
 
-[界面设计器使用手册](/zh-cn/UserManual/Designers/UIDesigner/README.md)
+[界面设计器使用手册](/en/UserManual/Designers/UIDesigner/README.md)
 
-[后端框架（Back-End framework）](/zh-cn/DevManual/Tutorials/Back-endFramework/README.md)
+[后端框架（Back-End framework）](/en/DevManual/Tutorials/Back-endFramework/README.md)
 
 :::
 
@@ -182,7 +182,7 @@ props: {
 
 :::warning 提示
 
-更多关于卡片组件 API 的内容可参考：[Element](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md)
+更多关于卡片组件 API 的内容可参考：[Element](/en/DevManual/Reference/Front-EndFramework/Widget/element.md)
 
 :::
 
@@ -259,7 +259,7 @@ public get nameField() {
 
 如果可能的话，我们还希望可以通过表达式的方式配置标题格式，这样灵活性会更高。
 
-更多关于表达式的内容可参考：[Expression Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/expression-service.md)
+更多关于表达式的内容可参考：[Expression Service](/en/DevManual/Reference/Front-EndFramework/Services/expression-service.md)
 
 :::
 

@@ -1,16 +1,16 @@
 ---
 title: 文档贡献
-index: true
+index: false
 category:
   - 贡献手册
 dir:
-  link: true
+  link: false
   order: 3
 prev:
   text: Coding guidelines
-  link: /zh-cn/Contribute/DevelopmentContributions/coding-guidelines.md
+  link: /en/Contribute/DevelopmentContributions/coding-guidelines.md
 
 next:
   text: Content guidelines
-  link: /zh-cn/Contribute/DocumentationContributions/content-guidelines.md
+  link: /en/Contribute/DocumentationContributions/content-guidelines.md
 ---

@@ -8,7 +8,7 @@ category:
 order: 1
 prev:
   text: 后端框架（Back-end framework）
-  link: /zh-cn/DevManual/Tutorials/Back-endFramework/README.md
+  link: /en/DevManual/Tutorials/Back-endFramework/README.md
 ---
 # 一、前后端分离架构
 在软件开发中，前后端分离架构是一种高效的模式，将用户界面（前端）与业务逻辑、数据处理（后端）明确分开，使它们能独立开发、测试与部署。
@@ -43,7 +43,7 @@ Oinone 模块既可以为 Oinone 系统添加全新的业务逻辑，也可以�
 术语：开发人员将他们的业务功能分组到 Oinone 模块中。主要面向用户的模块被标记并显示为应用程序（Apps），但大多数模块并非应用程序。
 
 # 三、Module structure 模块结构
-每个模块都是独立的一个Java模块，工程结构按Spring面向接口编程规范一般包括：api工程和core工程。一个 Oinone 模块是通过其XxModule.java文件来声明的。[模块定义文件说明](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md)
+每个模块都是独立的一个Java模块，工程结构按Spring面向接口编程规范一般包括：api工程和core工程。一个 Oinone 模块是通过其XxModule.java文件来声明的。[模块定义文件说明](/en/DevManual/Reference/Back-EndFramework/module-API.md)
 
 ## （一）每个模块都需要配置扫描路径：
 当一个 Oinone 模块包含业务对象时，这些文件会被组织成在模块的扫描包路径下

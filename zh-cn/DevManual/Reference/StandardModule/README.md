@@ -1,12 +1,12 @@
 ---
 title: 标准模块（Standard Modules）
-index: true
+index: false
 category:
   - 研发手册
   - Reference
   - 标准模块
 dir:
-  link: true
+  link: false
   order: 4
 prev:
   text: UI icons

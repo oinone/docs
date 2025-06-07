@@ -88,7 +88,7 @@ boot:
     -……
 ```
 
-注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 ## （三）新建触发任务
 创建名为 `PetTalentTrigger` 的类。该类被设定为，当 `PetTalent` 模型中的数据记录完成新建操作之后，系统将自动触发并执行一系列相关事务。

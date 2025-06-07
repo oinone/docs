@@ -1,11 +1,11 @@
 ---
 title: 常见解决方案
-index: true
+index: false
 category:
   - 研发手册
   - 常见解决方案
 dir:
-  link: true
+  link: false
   order: 5
 prev:
   text: 软件公司：标准化与定制化共生的范式

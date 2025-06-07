@@ -6,5 +6,5 @@ category:
 order: 5
 prev:
   text: Content guidelines
-  link: /zh-cn/Contribute/DocumentationContributions/content-guidelines.md
+  link: /en/Contribute/DocumentationContributions/content-guidelines.md
 ---

@@ -1,12 +1,12 @@
 ---
 title: 前端
-index: true
+index: false
 category:
   - 研发手册
   - 常见解决方案
   - 前端
 dir:
-  link: true
+  link: false
   order: 1
 prev:
   text: 常见解决方案

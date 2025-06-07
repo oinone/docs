@@ -1,11 +1,11 @@
 ---
 title: 最佳范式
-index: true
+index: false
 category:
   - 研发手册
   - 最佳范式
 dir:
-  link: true
+  link: false
   order: 4
 prev:
   text: 平台错误码

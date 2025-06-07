@@ -78,7 +78,7 @@ mutation {
 }
 ```
 
-+ 更多导出方式(如：按菜单导出、按页面导出)，参考：[界面设计器的导入导出](/zh-cn/DevManual/CommonSolutions/Back-End/project-deployment-ui-designer-import-export.md)
++ 更多导出方式(如：按菜单导出、按页面导出)，参考：[界面设计器的导入导出](/en/DevManual/CommonSolutions/Back-End/project-deployment-ui-designer-import-export.md)
 2. 在应用中心执行导出
 ![](https://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/FAQ/2025031808420511-1024x433.png)
 

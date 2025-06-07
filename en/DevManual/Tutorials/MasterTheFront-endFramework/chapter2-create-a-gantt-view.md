@@ -38,11 +38,11 @@ order: 2
 
 这些准备工作并不是这个练习需要学习的内容，如果你对这些内容还不是很熟悉，这里有些学习内容供你参考：
 
-[模型设计器使用手册](/zh-cn/UserManual/Designers/ModelDesigner/README.md)
+[模型设计器使用手册](/en/UserManual/Designers/ModelDesigner/README.md)
 
-[界面设计器使用手册](/zh-cn/UserManual/Designers/UIDesigner/README.md)
+[界面设计器使用手册](/en/UserManual/Designers/UIDesigner/README.md)
 
-[后端框架（Back-End framework）](/zh-cn/DevManual/Tutorials/Back-endFramework/README.md)
+[后端框架（Back-End framework）](/en/DevManual/Tutorials/Back-endFramework/README.md)
 
 :::
 
@@ -181,7 +181,7 @@ order: 2
 
 :::warning 提示
 
-更多关于视图类型和数据结构方面的内容请参考：[View architectures](/zh-cn/DevManual/Reference/UserInterface/view-architectures.md)
+更多关于视图类型和数据结构方面的内容请参考：[View architectures](/en/DevManual/Reference/UserInterface/view-architectures.md)
 
 :::
 
@@ -393,7 +393,7 @@ export interface BaseElementOptions extends SPIOptions {
 
 :::warning 提示
 
-更多关于元素组件的内容请参考：[Element](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md)
+更多关于元素组件的内容请参考：[Element](/en/DevManual/Reference/Front-EndFramework/Widget/element.md)
 
 :::
 
@@ -422,7 +422,7 @@ VueOioProvider({}, [
 
 VueOioProvider 方法不能执行多次，这里只需要将现有的 VueOioProvider 添加第二个参数，通过回调函数就可以扩展一些加载逻辑。
 
-更多关于 VueOioProvider 的内容请参考：[Context](/zh-cn/DevManual/Reference/Front-EndFramework/context.md)
+更多关于 VueOioProvider 的内容请参考：[Context](/en/DevManual/Reference/Front-EndFramework/context.md)
 
 :::
 
@@ -900,7 +900,7 @@ protected computeBarLabel(data: ActiveRecord): string {
 
 :::warning 提示
 
-更多关于表达式的内容请参考：[Expression Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/expression-service.md)
+更多关于表达式的内容请参考：[Expression Service](/en/DevManual/Reference/Front-EndFramework/Services/expression-service.md)
 
 :::
 

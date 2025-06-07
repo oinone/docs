@@ -10,5 +10,5 @@ category:
 order: 1
 prev:
   text: View
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/README.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/View/README.md
 ---

@@ -10,5 +10,5 @@ category:
 order: 5
 next:
   text: Element
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/element.md
 ---

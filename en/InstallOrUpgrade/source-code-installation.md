@@ -28,7 +28,7 @@ order: 3
 # 二、安装MySQL数据库
 如果没有现成的数据库，可自行到官网下载安装：[https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)。
 
-参考[MySQL安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
+参考[MySQL安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
 
 # 三、其他中间件部署
 | RocketMQ | 必须 | 4.7.1以上 |
@@ -145,8 +145,6 @@ order: 3
     </tr>
   </tbody>
 </table>
-
-
 
 # 五、获取源
 获取数式Oinone的源代码有两种方式：ZIP **压缩包** 或通过**Git**。这里介绍Git为主
@@ -294,7 +292,7 @@ cdn:
 
 :::
 
-更多oss配置请参考：[文件存储配置](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md#十四-文件存储配置-pamirs-file)
+更多oss配置请参考：[文件存储配置](/en/DevManual/Reference/Back-EndFramework/module-API.md#十四-文件存储配置-pamirs-file)
 
 ## （二）启动后端服务
 ### 1. 使用Maven启动
