@@ -1,11 +1,11 @@
 ---
 title: 设计原理
-index: true
+index: false
 category:
   - 研发手册
   - 设计原理
 dir:
-  link: true
+  link: false
   order: 7
 prev:
   text: 运行时：配置了上下文参数但是值未传到跳转页面
