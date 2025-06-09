@@ -6,7 +6,7 @@ export default hopeTheme(
   {
     hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
     // 禁用深色主题
-    darkmode: "disable",
+    darkmode: "toggle",
     author: {
       name: "Mr.Hope",
       url: "https://mister-hope.com",

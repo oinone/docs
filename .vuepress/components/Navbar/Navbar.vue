@@ -321,6 +321,7 @@
               <search-box />
               <RepoLink />
               <GiteeRepo />
+              <OutlookButton />
               <div class="navbar-text mr-2">
                 <i class="fas fa-phone"></i>0571-88757863
               </div>
@@ -338,6 +339,7 @@ import Navbar from "vuepress-theme-hope/navbar/components/Navbar.js";
 import RepoLink from "vuepress-theme-hope/navbar/components/RepoLink";
 import GiteeRepo from "./GiteeRepo.js";
 import LanguageDropdown from "vuepress-theme-hope/navbar/components/LanguageDropdown.js";
+import OutlookButton from "vuepress-theme-hope/outlook/components/OutlookButton";
 import {defineEmits, inject, onMounted, onUnmounted} from "vue";
 import noopComponent from "./noopComponent.vue";
 
@@ -347,7 +349,6 @@ const Language = __VP_MULTI_LANGUAGES__ ? LanguageDropdown : noopComponent;
 
 const os = inject("os");
 
-console.log(os)
 const emit = defineEmits(["toggleSidebar"]);
 
 const toggleSidebarEvent = () => {
