@@ -71,12 +71,13 @@ git remote add dev git@github.com:<your_github_account>/oinone-frontend-tutorial
 
 | IDEA版本 | 对应插件                                                     |
 | -------- | ------------------------------------------------------------ |
-| 2023.2   | [pamirs-intellij-plugin-2023.2.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1748573850606-62e2901c-5145-4768-ab10-038a8fbd2c0d.zip) |
-| 2023.3   | [pamirs-intellij-plugin-2023.3.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1748573858800-fc99133e-b7a2-4781-b2ae-bce30ca9dae2.zip) |
-| 2024.1   | [pamirs-intellij-plugin-2024.1.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1748573865708-0035696a-1167-43e6-802d-8601db85a348.zip) |
-| 2024.2   | [pamirs-intellij-plugin-2024.2.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1748573871209-a64f2f22-9418-46b7-871d-5da538173675.zip) |
-| 2024.3   | [pamirs-intellij-plugin-2024.3.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1748573876905-79fb56a4-134a-48b5-a498-802de03156e7.zip) |
-| 2025.1   | [pamirs-intellij-plugin-2025.1.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1748573885019-de646271-0fc4-49a0-a489-6c8e4d8d387b.zip) |
+| 2023.2   | [pamirs-intellij-plugin-2023.2.zip](http://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/Tutorial/MasterFrontendFramework/chapter-3/pamirs-intellij-plugin-2023.2.zip) |
+| 2023.3   | [pamirs-intellij-plugin-2023.3.zip](http://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/Tutorial/MasterFrontendFramework/chapter-3/pamirs-intellij-plugin-2023.3.zip) |
+| 2024.1   | [pamirs-intellij-plugin-2024.1.zip](http://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/Tutorial/MasterFrontendFramework/chapter-3/pamirs-intellij-plugin-2024.1.zip) |
+| 2024.2   | [pamirs-intellij-plugin-2024.2.zip](http://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/Tutorial/MasterFrontendFramework/chapter-3/pamirs-intellij-plugin-2024.2.zip) |
+| 2024.3   | [pamirs-intellij-plugin-2024.3.zip](http://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/Tutorial/MasterFrontendFramework/chapter-3/pamirs-intellij-plugin-2024.3.zip) |
+| 2025.1   | [pamirs-intellij-plugin-2025.1.zip](http://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/Tutorial/MasterFrontendFramework/chapter-3/pamirs-intellij-plugin-2025.1.zip) |
+
 
 
 <div style="display: flex; gap: 20px; margin: 20px 0;">
