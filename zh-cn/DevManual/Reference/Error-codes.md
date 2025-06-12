@@ -6,8 +6,8 @@ category:
   - Reference
 order: 6
 next:
-  text: 最佳范式
-  link: /zh-cn/DevManual/R&DParadigm/README.md
+  text: 研发范式：研发流程
+  link: /zh-cn/DevManual/R&DParadigm/R&D-paradigm-R&D-process.md
 ---
 ## 一、平台内置错误码
 

@@ -7,7 +7,7 @@ category:
 order: 3
 
 ---
-回想一下我们在 “[精通前端框架](/en/DevManual/Tutorials/MasterTheFront-endFramework/README.md)” 章节中的内容，我们简要提到过关于 `元素组件的注册` 相关内容，接下来让我们根据每个视图类型分别介绍内置视图组件的自定义方法。
+回想一下我们在 “[精通前端框架](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/README.md)” 章节中的内容，我们简要提到过关于 `元素组件的注册` 相关内容，接下来让我们根据每个视图类型分别介绍内置视图组件的自定义方法。
 
 `视图组件` 是一类特殊的 `元素组件`，它们通常在 `视图` 中作为 `数据源提供者` 存在的。它是整个视图运行的核心组件，对于视图组件运行逻辑的学习可以帮助我们更好的理解 Widget 框架提供的数据交互能力，并基于此创建更多可被抽象的视图展示形式，就像我们之前创建的甘特图视图那样。
 
@@ -92,7 +92,7 @@ export interface BaseElementOptions extends SPIOptions {
 
 :::warning 提示：
 
-更多关于元素组件的内容请参考：[Element](/en/DevManual/Reference/Front-EndFramework/Widget/element.md)
+更多关于元素组件的内容请参考：[Element](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md)
 
 :::
 
@@ -160,7 +160,7 @@ export class CustomTableWidget extends TableWidget {
 
 :::warning 提示
 
-关于内置布局的相关内容请参考：[Layout](/en/DevManual/Reference/Front-EndFramework/Widget/layout.md)
+关于内置布局的相关内容请参考：[Layout](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/layout.md)
 
 :::
 
@@ -205,11 +205,11 @@ props: {
 
 在 `BaseElementListViewWidget` 组件中提供了两个数据源对象：`dataSource` 和 `showDataSource`。
 
-这两个数据源对象在不执行前端搜索和前端排序的情况下是完全一样的，在之前 [Create a gantt view](/en/DevManual/Tutorials/MasterTheFront-endFramework/chapter2-create-a-gantt-view.md)  教程中，我们已经使用过 `dataSource` 数据源对象，在这里我们使用另一个 `showDataSource` 数据源对象。
+这两个数据源对象在不执行前端搜索和前端排序的情况下是完全一样的，在之前 [Create a gantt view](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter2-create-a-gantt-view.md)  教程中，我们已经使用过 `dataSource` 数据源对象，在这里我们使用另一个 `showDataSource` 数据源对象。
 
 :::
 
-在这里，我们要保证表格的功能不出问题，一定要使用 `setTableInstance` 方法将 `OioTable` 组件实例传递到 Widget 组件，这样就可以让 Widget 组件直接操作 `OioTable` 实例。这一点和我们在 [聚焦输入框](/en/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter1-widget.md#九、聚焦输入框) 教程中的操作类似，都是为了将逻辑转移到 Widget 组件以此提供可被重写或继承的具体的功能。我们可以这样处理一下：
+在这里，我们要保证表格的功能不出问题，一定要使用 `setTableInstance` 方法将 `OioTable` 组件实例传递到 Widget 组件，这样就可以让 Widget 组件直接操作 `OioTable` 实例。这一点和我们在 [聚焦输入框](/zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter1-widget.md#九、聚焦输入框) 教程中的操作类似，都是为了将逻辑转移到 Widget 组件以此提供可被重写或继承的具体的功能。我们可以这样处理一下：
 
 ```vue
 setup(props) {
@@ -496,7 +496,7 @@ export class CustomFormWidget extends FormWidget {
 }
 ```
 
-在之后的小节中不再提供 `registerLayout` 方法使用的模板，读者可以根据 [Layout](/en/DevManual/Reference/Front-EndFramework/Widget/layout.md) 文章中提供的默认布局自行完成 `布局（Layout）` 注册和组件的切换。和上面创建 自定义表格组件 类似，我们先用 `hello world` 看到组件切换的效果页面：
+在之后的小节中不再提供 `registerLayout` 方法使用的模板，读者可以根据 [Layout](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/layout.md) 文章中提供的默认布局自行完成 `布局（Layout）` 注册和组件的切换。和上面创建 自定义表格组件 类似，我们先用 `hello world` 看到组件切换的效果页面：
 
 ![](https://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/OperationGuide/custom-view/CustomFormWidget.png)
 
@@ -520,7 +520,7 @@ export class CustomFormWidget extends FormWidget {
 
 这里用到了 Pack 组件，它和我们在 布局（Layout） 中使用的 XML 定义 pack 标签是完全一样的。你可以在 布局（Layout） 中使用，也可以在 Vue 组件模板中使用。
 
-更多关于 Pack 组件相关的内容请参考：[Pack](/en/DevManual/Reference/Front-EndFramework/Widget/pack.md)
+更多关于 Pack 组件相关的内容请参考：[Pack](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/pack.md)
 
 :::
 
@@ -551,13 +551,13 @@ props: {
 
 :::warning 提示
 
-更多关于 Form 相关的内容请参考：[Form](/en/DevManual/Reference/Front-EndFramework/Widget/View/form.md)
+更多关于 Form 相关的内容请参考：[Form](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/form.md)
 
 :::
 
 # 四、自定义画廊组件
 
-让我们回想一下在 “[Customize a gallery view](/en/DevManual/Tutorials/MasterTheFront-endFramework/chapter3-customize-a-gallery-view.md)” 中学习的关于自定义卡片组件的案例。在那个案例中，我们通过自定义画廊视图中的卡片组件完成了对画廊视图的自定义需求。
+让我们回想一下在 “[Customize a gallery view](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter3-customize-a-gallery-view.md)” 中学习的关于自定义卡片组件的案例。在那个案例中，我们通过自定义画廊视图中的卡片组件完成了对画廊视图的自定义需求。
 
 接下来，让我们创建一个画廊组件，用更加灵活的方式对画廊视图进行自定义吧。
 
@@ -593,7 +593,7 @@ export class CustomGalleryWidget extends GalleryWidget {
 
 ## （二）使用 OioGallery 组件
 
-让我们把 “[Customize a gallery view](/en/DevManual/Tutorials/MasterTheFront-endFramework/chapter3-customize-a-gallery-view.md)” 中实现的卡片 “摘抄” 过来，对应的 Vue 组件模板应该是这样的：
+让我们把 “[Customize a gallery view](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter3-customize-a-gallery-view.md)” 中实现的卡片 “摘抄” 过来，对应的 Vue 组件模板应该是这样的：
 
 ```vue
 <template>
@@ -706,7 +706,7 @@ props: {
 </element>
 ```
 
-现在，让我们回想一下 “[带插槽的通用卡片](/en/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter1-widget.md#五、带插槽的通用卡片)” 一节，在 `布局（Layout）` 中，我们使用了 `插槽（Slot）` 以及在 `拓展内容` 部分提及的 `具名插槽` 相关内容。一个正确的定义应该是这样的：
+现在，让我们回想一下 “[带插槽的通用卡片](/zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter1-widget.md#五、带插槽的通用卡片)” 一节，在 `布局（Layout）` 中，我们使用了 `插槽（Slot）` 以及在 `拓展内容` 部分提及的 `具名插槽` 相关内容。一个正确的定义应该是这样的：
 
 ```xml
 <element widget="CustomGallery" slot="table" slotSupport="field">
@@ -732,7 +732,7 @@ props: {
 
 在 `布局（Layout）` 和 `DSL` 进行合并时，只要布局中的 `XML` 标签上存在 `slot` 属性，那么在 `DSL` 中同名的 `template` 片段，属性会合并到对应标签上，子标签会插入到对应 `XML` 标签下。对于 `xslot` 标签的处理，则是完整的片段替换。这样也就得到了我们上面看到的最终合并 DSL 后的 `XML` 片段。
 
-更多关于 DSL 的内容请参考：[DSL](/en/DevManual/Reference/Front-EndFramework/Widget/DSL.md)
+更多关于 DSL 的内容请参考：[DSL](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/DSL.md)
 
 :::
 
@@ -777,7 +777,7 @@ props: {
 
 :::warning 提示
 
-在这个示例内容中，我们需要关心是对 `showDataSource` 属性的使用以及 `rowActions` 插槽的渲染，而不是最终展示的页面效果。再结合我们之前 “[Customize a gallery view](/en/DevManual/Tutorials/MasterTheFront-endFramework/chapter3-customize-a-gallery-view.md)” 章节的内容，我们同样可以达到自定义卡片样式的效果以及实现组件通用化。值得一提的是，相比于仅自定义卡片的方式，在这个示例内容中，我们可以有更多的属性来表示更多功能的变化。
+在这个示例内容中，我们需要关心是对 `showDataSource` 属性的使用以及 `rowActions` 插槽的渲染，而不是最终展示的页面效果。再结合我们之前 “[Customize a gallery view](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter3-customize-a-gallery-view.md)” 章节的内容，我们同样可以达到自定义卡片样式的效果以及实现组件通用化。值得一提的是，相比于仅自定义卡片的方式，在这个示例内容中，我们可以有更多的属性来表示更多功能的变化。
 
 :::
 

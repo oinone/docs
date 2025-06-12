@@ -8,7 +8,7 @@ category:
 order: 2
 next:
   text: 精通前段框架（Master the Front-End framework）
-  link: /en/DevManual/Tutorials/MasterTheFront-endFramework/README.md
+  link: /zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/README.md
 ---
 本教程的第一部分向你介绍了 Widget 框架的大部分理念。现在是时候更加深入的理解 Oinone 框架了，也就是 Web 客户端所使用的那个框架。
 
@@ -59,7 +59,7 @@ next:
 
 :::warning 提示：
 
-更多关于母版（Mask）的内容请参考：[Mask](/en/DevManual/Reference/Front-EndFramework/Widget/mask.md)
+更多关于母版（Mask）的内容请参考：[Mask](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/mask.md)
 
 :::
 
@@ -86,7 +86,7 @@ export class ResourceCountryGroupService {
 
 :::warning 提示
 
-更多关于自定义请求的内容请参考：[Customize GraphQL Request](/en/DevManual/OperationGuide/customize-graphQL-request.md)
+更多关于自定义请求的内容请参考：[Customize GraphQL Request](/zh-cn/DevManual/OperationGuide/customize-graphQL-request.md)
 
 :::
 
@@ -113,7 +113,7 @@ protected async mounted() {
 
 :::warning 提示
 
-更多关于 `RSQL` 的内容请参考：[RSQL Serivce](/en/DevManual/Reference/Front-EndFramework/Services/RSQL-service.md)
+更多关于 `RSQL` 的内容请参考：[RSQL Serivce](/zh-cn/DevManual/Reference/Front-EndFramework/Services/RSQL-service.md)
 
 :::
 

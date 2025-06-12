@@ -7,20 +7,20 @@ category:
 order: 7
 prev:
   text: 组件暗黑主题变量
-  link: /en/DevManual/OperationGuide/CustomizeThemes/dark-themes.md
+  link: /zh-cn/DevManual/OperationGuide/CustomizeThemes/dark-themes.md
 next:
-  text: 参考指南
-  link: /en/DevManual/Reference/README.md
+  text: 模块 API（Module API）
+  link: /zh-cn/DevManual/Reference/Back-EndFramework/module-API.md
 ---
 在 Oinone 提供的 `界面设计器` 中，可以自由的对组件进行切换，包括视图组件、布局组件、字段组件这三类。
 
-在之前章节的学习中，我们对组件的切换已经不陌生了。在 [自定义字段](/en/DevManual/OperationGuide/customize-a-field-widget.md) 章节，我们通过组件注册的方式将 `FormBooleanSwitchFieldWidget` 组件替换为 `FormCustomSwitchFieldWidget` 组件。在 [自定义视图](/en/DevManual/OperationGuide/customize-a-view-widget.md) 章节，我们通过注册 `布局（Layout）` 的方式将 `TableWidget` 组件替换为 `CustomTableWidget` 组件。
+在之前章节的学习中，我们对组件的切换已经不陌生了。在 [自定义字段](/zh-cn/DevManual/OperationGuide/customize-a-field-widget.md) 章节，我们通过组件注册的方式将 `FormBooleanSwitchFieldWidget` 组件替换为 `FormCustomSwitchFieldWidget` 组件。在 [自定义视图](/zh-cn/DevManual/OperationGuide/customize-a-view-widget.md) 章节，我们通过注册 `布局（Layout）` 的方式将 `TableWidget` 组件替换为 `CustomTableWidget` 组件。
 
 接下来，我们将学习如何通过 `界面设计器` 提供的功能，如何在不使用上述两种方式的情况下完成组件的替换。这是非常有意义的。
 
 # 一、使用扩展配置替换组件
 
-回想一下我们在 “[Create a gantt view](/en/DevManual/Tutorials/MasterTheFront-endFramework/chapter2-create-a-gantt-view.md)” 章节中创建的 `甘特图` 组件。试想一下，如果我们可以在 `界面设计器` 中将表格切换为 `甘特图` ，并配置一些组件所必须的属性，就可以让这个表格视图以 `甘特图` 的样子展示在页面中。
+回想一下我们在 “[Create a gantt view](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter2-create-a-gantt-view.md)” 章节中创建的 `甘特图` 组件。试想一下，如果我们可以在 `界面设计器` 中将表格切换为 `甘特图` ，并配置一些组件所必须的属性，就可以让这个表格视图以 `甘特图` 的样子展示在页面中。
 
 让我们来看之前甘特图使用过的表格页面，它在设计器中看起来可能是这样的：
 
@@ -52,7 +52,7 @@ next:
 + 创建组件/元件
 + 低无一体
 
-回想一下我们在 “[自定义字段](/en/DevManual/OperationGuide/customize-a-field-widget.md)” 章节创建的 `RedInput` 组件。如果有可能的话，我们希望在设计器中也可以对这类字段组件像设计器中已有的字段组件切换那样容易，这样在我们创建了一个自定义组件后，就可以让它用在任何可以使用的地方。
+回想一下我们在 “[自定义字段](/zh-cn/DevManual/OperationGuide/customize-a-field-widget.md)” 章节创建的 `RedInput` 组件。如果有可能的话，我们希望在设计器中也可以对这类字段组件像设计器中已有的字段组件切换那样容易，这样在我们创建了一个自定义组件后，就可以让它用在任何可以使用的地方。
 
 接下来，让我们在设计器创建第一个 RedInput 组件吧。
 
@@ -139,7 +139,7 @@ export class TableRedInputWidget extends BaseTableFieldWidget<string> {
 
 ## （四）在页面上使用自定义组件
 
-还记得我们在 “[Create a gantt view](/en/DevManual/Tutorials/MasterTheFront-endFramework/chapter2-create-a-gantt-view.md)” 章节中，使用的 `甘特图数据录入` 页面吗？它里面包含了完整的增删改查功能，让我们在对应的 `表格视图` 和 `表单视图` 中的 `编码字段` 上使用 `RedInput` 组件吧。
+还记得我们在 “[Create a gantt view](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter2-create-a-gantt-view.md)” 章节中，使用的 `甘特图数据录入` 页面吗？它里面包含了完整的增删改查功能，让我们在对应的 `表格视图` 和 `表单视图` 中的 `编码字段` 上使用 `RedInput` 组件吧。
 
 先从设计器进入 `表格视图` 的设计页面，它有可能是这样的：
 

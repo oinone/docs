@@ -6,8 +6,8 @@ category:
   - 教程
 order: 9
 next:
-  text: 操作指南
-  link: /zh-cn/DevManual/OperationGuide/README.md
+  text: 自定义字段
+  link: /zh-cn/DevManual/OperationGuide/customize-a-field-widget.md
 ---
 # 一、概述
 

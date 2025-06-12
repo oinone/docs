@@ -7,7 +7,7 @@ category:
 order: 1
 prev:
   text: 教程（Tutorials）
-  link: /en/DevManual/Tutorials/README.md
+  link: /zh-cn/DevManual/Tutorials/README.md
 ---
 # 一、概述
 根据预期的使用场景，安装数式Oinone有多种方式。对于数式Oinone的开发者以及数式Oinone员工来说，首选的方式还是用源码安装。
@@ -79,6 +79,7 @@ git remote add dev git@github.com:<your_github_account>/oinone-frontend-tutorial
 | 2025.1   | [pamirs-intellij-plugin-2025.1.zip](http://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/Tutorial/MasterFrontendFramework/chapter-3/pamirs-intellij-plugin-2025.1.zip) |
 
 
+
 <div style="display: flex; gap: 20px; margin: 20px 0;">
 
   <div style="flex: 1; background: #f8f9fa; border-radius: 8px; padding: 16px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
@@ -105,7 +106,7 @@ git remote add dev git@github.com:<your_github_account>/oinone-frontend-tutorial
 
 ## （三）Maven工具
 ### 1、安装
-参照[Maven安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/Maven-setup.md)
+参照[Maven安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/Maven-setup.md)
 
 ### 2、配置
 建议将Maven配置文件 `settings.xml` 文件放置在用户目录下的 `.m2` 文件夹中。
@@ -121,5 +122,5 @@ git remote add dev git@github.com:<your_github_account>/oinone-frontend-tutorial
 ![](https://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/Tutorial/setup-guide/Graph.gif)
 
 #  四、前端额外工具
-参照前端[环境配置之进阶](/en/InstallOrUpgrade/Dev-ENV/Node.js-setup.md#三、进阶)
+参照前端[环境配置之进阶](/zh-cn/InstallOrUpgrade/Dev-ENV/Node.js-setup.md#三、进阶)
 

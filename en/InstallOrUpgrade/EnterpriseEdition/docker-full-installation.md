@@ -5,8 +5,8 @@ category:
   - 安装与升级
 order: 1
 prev:
-  text: 安装与升级
-  link: /en/InstallOrUpgrade/README.md
+  text: 源码安装
+  link: /zh-cn/InstallOrUpgrade/CommunityEdition/source-code-installation.md
 ---
 # 一、概述
 每个构建版本都隔离在其自己的容器（Linux 命名空间容器）中。本文档提供如何安装“包含所有中间件及前后端工程”镜像的说明
@@ -36,7 +36,7 @@ prev:
 # 二、安装MySQL数据库
 如果没有现成的数据库，可自行到官网下载安装：[https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)。
 
-参考[MySQL安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
+参考[MySQL安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
 
 # 三、安装docker
 如果没有Docker的话，请自行到官网下载安装：[https://www.docker.com/get-started/](https://www.docker.com/get-started/)
@@ -69,15 +69,15 @@ prev:
 ### 企业版
 ```shell
 ##oinone-designer-mini-v大版本.中版本:全版本
-docker pull harbor.oinone.top/oinone/oinone-designer-mini-v5.3:5.3.8.4
+docker pull harbor.oinone.top/oinone/oinone-designer-mini-v6.2:6.2.1
 ```
 
 如镜像拉取过慢，可在对应镜像Tag添加`-amd64`、`-arm64`后缀获取单一架构镜像。
 
 ```shell
 ##oinone-designer-mini-v大版本.中版本:全版本-架构Tag
-docker pull harbor.oinone.top/oinone/oinone-designer-mini-v5.3:5.3.8.4-amd64
-docker pull harbor.oinone.top/oinone/oinone-designer-mini-v5.3:5.3.8.4-arm64
+docker pull harbor.oinone.top/oinone/oinone-designer-mini-v6.2:6.2.1-amd64
+docker pull harbor.oinone.top/oinone/oinone-designer-mini-v6.2:6.2.1-arm64
 ```
 
 # 五、运行数式Oinone
@@ -94,7 +94,7 @@ mkdir oinone
 cd oinone
 ```
 
-+ 本地下载结构包[oinone-op-ds-all-full.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1749102433285-e9d35bf6-4b77-4779-96fb-78ecd8ef68f6.zip)，解压后从本地电脑上传结构包到服务器
++ 本地下载结构包[oinone-op-ds-all-full.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1749714379891-ca0231e5-2d29-4e7f-ad52-f0a4eb920f78.zip)，解压后从本地电脑上传结构包到服务器
 
 ```plain
 #本地电脑上传结构包
@@ -194,8 +194,8 @@ docker run -d --name designer-allinone \
 
 ```plain
 configDir=$(pwd)
-majorVersion=5.3  # 根据数式Oinone镜像的实际版本进行修改
-version=5.3.8.4   # 根据数式Oinone镜像的实际版本进行修改
+majorVersion=6.2  # 根据数式Oinone镜像的实际版本进行修改
+version=6.2.1     # 根据数式Oinone镜像的实际版本进行修改
 IP=192.168.0.121  # 改为服务器 IP
 ```
 

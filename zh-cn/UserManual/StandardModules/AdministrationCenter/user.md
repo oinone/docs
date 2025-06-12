@@ -5,8 +5,8 @@ category:
   - 用户手册
 order: 1
 prev:
-  text: 管理中心
-  link: /zh-cn/UserManual/StandardModules/AdministrationCenter/README.md
+  text: 系统配置
+  link: /zh-cn/UserManual/StandardModules/preferences.md
 ---
 ### 1.功能介绍
 支持创建系统用户，方便对系统进行访问和管理。

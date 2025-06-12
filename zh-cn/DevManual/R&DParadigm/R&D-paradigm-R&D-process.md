@@ -6,8 +6,8 @@ category:
   - 最佳范式
 order: 1
 prev:
-  text: 最佳范式
-  link: /zh-cn/DevManual/R&DParadigm/README.md
+  text: 平台错误码（Error Codes）
+  link: /zh-cn/DevManual/Reference/Error-codes.md
 ---
 # 一、前后端分离架构
 

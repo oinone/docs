@@ -14,7 +14,7 @@ order: 8
 
 # 一、关系字段属性：domain
 
-参考：与此主题相关的文档可在 “[字段属性](/en/DevManual/Reference/Back-EndFramework/ORM-API.md)” 中找到。
+参考：与此主题相关的文档可在 “[字段属性](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md)” 中找到。
 
 :::info 目标：在本节结束时：
 
@@ -44,7 +44,7 @@ private List<PamirsPartner> partners;
 
 通过Ux的 `clearFields`属性配置，当`partnerType` 字段发生变化时，需要清空的字段列表。
 
-在关系字段定义中，添加 `domain=X` 选项，其中 `X` 可以接受一个[RSQL](/en/DevManual/Reference/Back-EndFramework/AdvanceAPI/protocol-API.md#1、rsql-基础概念)的表达式，activeRecord代表视图的当前对象
+在关系字段定义中，添加 `domain=X` 选项，其中 `X` 可以接受一个[RSQL](/zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/protocol-API.md#1、rsql-基础概念)的表达式，activeRecord代表视图的当前对象
 
 ![](https://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/Tutorial/BackendFramework/chapter-8/domain2.gif)
 
@@ -68,7 +68,7 @@ private List<PamirsPartner> partners;
 
 ## （一）compute
 
-参考：与此主题相关的文档可在 “[UX compute属性](/en/DevManual/Reference/Back-EndFramework/UX-API.md)” 中找到。
+参考：与此主题相关的文档可在 “[UX compute属性](/zh-cn/DevManual/Reference/Back-EndFramework/UX-API.md)” 中找到。
 
 :::info 目标：在本节结束时：
 
@@ -116,7 +116,7 @@ private String computeName;
 
 ## （二）constructFun
 
-参考：与此主题相关的文档可在 “[UX constructFun属性](/en/DevManual/Reference/Back-EndFramework/UX-API.md)” 中找到。
+参考：与此主题相关的文档可在 “[UX constructFun属性](/zh-cn/DevManual/Reference/Back-EndFramework/UX-API.md)” 中找到。
 
 :::info 目标：在本节结束时：
 

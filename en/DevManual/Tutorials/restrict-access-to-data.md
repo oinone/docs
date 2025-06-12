@@ -13,7 +13,7 @@ order: 6
 
 :::
 
-在学习这篇文章之前，你首先需要对 Oinone 安全相关内容进行一个初步了解，以便于理解本文所介绍的自定义相关内容。参考：[后端框架 - 安全简介](/en/DevManual/Tutorials/Back-endFramework/chapter4-a-brief-introduction-to-security.md)
+在学习这篇文章之前，你首先需要对 Oinone 安全相关内容进行一个初步了解，以便于理解本文所介绍的自定义相关内容。参考：[后端框架 - 安全简介](/zh-cn/DevManual/Tutorials/Back-endFramework/chapter4-a-brief-introduction-to-security.md)
 
 到目前为止，我们主要关注于实现实用功能。然而，在大多数业务场景中，安全性很快成为一个需要关注的问题：
 
@@ -21,7 +21,7 @@ order: 6
 
 但是，我们还希望登录系统的每个人只能查看 “报销人” 是自己的报销单数据，但对于 “项目发起人”  来说，他还可以查看自己发起项目的所有报销单数据。
 
-参考：与此主题相关的文档可在 “[安全机制](/en/DevManual/Reference/Back-EndFramework/security-in-oinone.md)” 、“[网关协议 API](/en/DevManual/Reference/Back-EndFramework/AdvanceAPI/protocol-API.md)” 和 “[请求上下文 API](/en/DevManual/Reference/Back-EndFramework/AdvanceAPI/request-context-API.md)” 中找到。
+参考：与此主题相关的文档可在 “[安全机制](/zh-cn/DevManual/Reference/Back-EndFramework/security-in-oinone.md)” 、“[网关协议 API](/zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/protocol-API.md)” 和 “[请求上下文 API](/zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/request-context-API.md)” 中找到。
 
 # 一、只能查看 “报销人” 是自己的报销单
 
@@ -176,7 +176,7 @@ public class TestPlaceHolder extends AbstractPlaceHolderParser {
 
 # 三、占位符 PlaceHolder 实现优化
 
-在大多数场景中，同一个占位符可能用在多个地方，并且可能在一个请求中重复使用。对于占位符值的获取一般我们采用 “线程级别缓存” 进行处理。这一部分没有示例代码，读者可参考 “[请求上下文 API](/en/DevManual/Reference/Back-EndFramework/AdvanceAPI/request-context-API.md)” 中的 “扩展 PamirsSession” 部分的内容自行实现。
+在大多数场景中，同一个占位符可能用在多个地方，并且可能在一个请求中重复使用。对于占位符值的获取一般我们采用 “线程级别缓存” 进行处理。这一部分没有示例代码，读者可参考 “[请求上下文 API](/zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/request-context-API.md)” 中的 “扩展 PamirsSession” 部分的内容自行实现。
 
 > **练习（Exercise）**
 >

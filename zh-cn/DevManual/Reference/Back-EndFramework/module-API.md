@@ -7,8 +7,8 @@ category:
   - 后端API
 order: 1
 prev:
-  text: 后端API（Back-End framework）
-  link: /zh-cn/DevManual/Reference/Back-EndFramework/README.md
+  text: 自定义组件与设计器结合
+  link: /zh-cn/DevManual/OperationGuide/combination-of-customized-widget-and-designer.md
 ---
 # 一、概述
 

@@ -306,7 +306,7 @@ export interface LayoutRegisterOptions extends SPIOptions {
 
 ## （二）使用 registerMask 注册母版
 
-下面是我们在 “[探索前端框架 - Build a dashboard](/en/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter2-build-a-dashboard.md)” 中注册的母版：
+下面是我们在 “[探索前端框架 - Build a dashboard](/zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter2-build-a-dashboard.md)” 中注册的母版：
 
 ```typescript
 import { registerMask, ViewType } from '@kunlun/dependencies';
@@ -355,7 +355,7 @@ registerMask(
 
 让我们先通过 运行时配置 定义这样一个可以获取是否开启的运行时配置管理器：
 
-（建议遵循 [Environment - 自定义运行时配置](/en/DevManual/Reference/Front-EndFramework/environment.md#三、自定义运行时配置) 章节中介绍的最佳实践进行定义）
+（建议遵循 [Environment - 自定义运行时配置](/zh-cn/DevManual/Reference/Front-EndFramework/environment.md#三、自定义运行时配置) 章节中介绍的最佳实践进行定义）
 
 ```typescript
 /**

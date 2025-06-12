@@ -8,8 +8,8 @@ category:
   - Services
 order: 1
 prev:
-  text: 服务（Service）
-  link: /en/DevManual/Reference/Front-EndFramework/Services/README.md
+  text: Vue UI
+  link: /zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/vue-UI.md
 ---
 
-The document is currently in preparation, please stay tuned ...
+文档正在筹备中，敬请期待...

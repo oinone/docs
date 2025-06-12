@@ -5,8 +5,8 @@ category:
   - 常见解决方案
 order: 81
 next:
-  text: 常见问题
-  link: /en/DevManual/FAQ/README.md
+  text: 启动时：Oinone License 许可证使用常见问题
+  link: /zh-cn/DevManual/FAQ/startup-oinone-license-usage-faq.md
 ---
 
 # 一、简介

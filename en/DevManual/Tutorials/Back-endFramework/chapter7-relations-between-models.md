@@ -19,7 +19,7 @@ order: 7
 
 # 一、多对一关系（many2one）
 
-参考：与此主题相关的文档可在 “[多对一关系](/en/DevManual/Reference/Back-EndFramework/ORM-API.md#多对一关系many2one)” 中找到。
+参考：与此主题相关的文档可在 “[多对一关系](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md#多对一关系many2one)” 中找到。
 
 :::info 目标：在本节结束时：
 
@@ -112,7 +112,7 @@ public class ExpensesModule implements PamirsModule {
 
 > 这个练习很好地复习了前面几章的内容：你需要创建一个模型，设置该模型，添加一个操作和一个菜单，以及创建一个视图。
 >
-> **提示**：[不要忘记添加访问权限](/en/DevManual/Tutorials/Back-endFramework/chapter4-a-brief-introduction-to-security.md)。
+> **提示**：[不要忘记添加访问权限](/zh-cn/DevManual/Tutorials/Back-endFramework/chapter4-a-brief-introduction-to-security.md)。
 
 再次重启服务器并刷新以查看结果！
 
@@ -145,7 +145,7 @@ public class ExpensesModule implements PamirsModule {
 
 # 二、多对多关系（many2many）
 
-参考：与此主题相关的文档可在 “[多对多关系](/en/DevManual/Reference/Back-EndFramework/ORM-API.md#多对多关系many2many)” 中找到。
+参考：与此主题相关的文档可在 “[多对多关系](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md#多对多关系many2many)” 中找到。
 
 :::info 目标：在本节结束时：
 

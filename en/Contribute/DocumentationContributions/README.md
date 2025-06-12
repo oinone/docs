@@ -8,9 +8,9 @@ dir:
   order: 3
 prev:
   text: Coding guidelines
-  link: /en/Contribute/DevelopmentContributions/coding-guidelines.md
+  link: /zh-cn/Contribute/DevelopmentContributions/coding-guidelines.md
 
 next:
   text: Content guidelines
-  link: /en/Contribute/DocumentationContributions/content-guidelines.md
+  link: /zh-cn/Contribute/DocumentationContributions/content-guidelines.md
 ---

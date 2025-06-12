@@ -7,8 +7,8 @@ category:
   - 后端API
 order: 1
 prev:
-  text: 后端API（Back-End framework）
-  link: /en/DevManual/Reference/Back-EndFramework/README.md
+  text: 自定义组件与设计器结合
+  link: /zh-cn/DevManual/OperationGuide/combination-of-customized-widget-and-designer.md
 ---
 # 一、概述
 
@@ -762,7 +762,7 @@ pamirs:
         majorVersion: 8
 ```
 
-更多方言配置参考：[数据库方言配置专题](/en/DevManual/CommonSolutions/Back-End/data-dialect-opengauss-database-deployment.md)
+更多方言配置参考：[数据库方言配置专题](/zh-cn/DevManual/CommonSolutions/Back-End/data-dialect-opengauss-database-deployment.md)
 
 ## （五）数据源配置 pamirs.datasource
 
@@ -1412,7 +1412,7 @@ cdn:
     localFolderUrl:
 ```
 
-**无公网访问地址配置**：MINIO 无公网访问地址下 OSS 的配置方式，详见 [文件存储：MINIO无公网访问地址下OSS的配置](/en/DevManual/CommonSolutions/Back-End/file-storage-minio-oss-configuration-without-public-ip.md)。
+**无公网访问地址配置**：MINIO 无公网访问地址下 OSS 的配置方式，详见 [文件存储：MINIO无公网访问地址下OSS的配置](/zh-cn/DevManual/CommonSolutions/Back-End/file-storage-minio-oss-configuration-without-public-ip.md)。
 
 #### 又拍云
 

@@ -41,7 +41,7 @@ cdn:
     active: true
 ```
 
-更多配置参考：[文件存储配置](/en/DevManual/Reference/Back-EndFramework/module-API.md#十四-文件存储配置-pamirs-file)
+更多配置参考：[文件存储配置](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md#十四-文件存储配置-pamirs-file)
 
 # 二、方法说明
 

@@ -1,19 +1,21 @@
 ---
-title: docker-mini方式安装
+title: 快速体验：docker-full方式安装
 index: true
 category:
   - 安装与升级
-order: 2
-
+order: 1
+prev:
+  text: 源码安装
+  link: /zh-cn/InstallOrUpgrade/CommunityEdition/source-code-installation.md
 ---
 # 一、概述
-每个构建版本都隔离在其自己的容器（Linux 命名空间容器）中。
+每个构建版本都隔离在其自己的容器（Linux 命名空间容器）中。本文档提供如何安装“包含所有中间件及前后端工程”镜像的说明
 
 基础是准备一台4核16G的Linux服务器，操作系统推荐CentOS 7.6 64位。其中安装了数式Oinone所有必需的依赖项以及常见的有用包。
 
-它适用于正式、研发和测试环境下使用数式Oinone，经过额外的部署和维护工作后，可长期使用。它相对docker-full来说镜像只包括数式Oinone的前后端应用，需要额外部署中间件。在实际使用过程中，中间件如redis、zookeeper、rockerMq可以独立服务器部署。部署结构示意如下：
+它是非正式环境下使用数式Oinone或进行试用的最简单方式，部署结构示意如下：
 
-![部署结构](https://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Installation-and-Upgrade/Docker-mini-installation-method/bushujiegou.jpeg)
+![部署结构](https://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Installation-and-Upgrade/Quick-experience%3ADocker-full-installation-method/bushujiegoushiyi.jpeg)
 
 :::info 注意：如有其他环境配合体验，网络需互通
 
@@ -25,19 +27,18 @@ order: 2
 
 :::
 
+:::danger 警告：数据库需要独立
+
+数据库如果不从镜像中独立出来，而是用镜像中的数据库。那么镜像升级的时候会导致数据丢失。
+
+:::
+
 # 二、安装MySQL数据库
 如果没有现成的数据库，可自行到官网下载安装：[https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)。
 
-参考[MySQL安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
+参考[MySQL安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
 
-# 三、其他中间件部署
-| RocketMQ | 必须 | 4.7.1以上 |
-| --- | --- | --- |
-| Redis | 必须 | 5.0.2以上 |
-| Zookeeper | 必须 | 3.5.8以上 |
-
-
-# 四、安装docker
+# 三、安装docker
 如果没有Docker的话，请自行到官网下载安装：[https://www.docker.com/get-started/](https://www.docker.com/get-started/)
 
 :::warning 提示
@@ -47,9 +48,9 @@ order: 2
 命令：yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 :::
 
-# 五、下载镜像
+# 四、下载镜像
 ## （一）确认系统架构
-**查看当前系统架构:**
+**查看当前系统架构：**
 使用 `arch(推荐使用) `或者`uname -a` 命令
 
 + x86_64：表示支持 AMD64 架构。
@@ -68,18 +69,18 @@ order: 2
 ### 企业版
 ```shell
 ##oinone-designer-mini-v大版本.中版本:全版本
-docker pull harbor.oinone.top/oinone/oinone-designer-mini-v5.3:5.3.8.4
+docker pull harbor.oinone.top/oinone/oinone-designer-mini-v6.2:6.2.1
 ```
 
 如镜像拉取过慢，可在对应镜像Tag添加`-amd64`、`-arm64`后缀获取单一架构镜像。
 
 ```shell
 ##oinone-designer-mini-v大版本.中版本:全版本-架构Tag
-docker pull harbor.oinone.top/oinone/oinone-designer-mini-v5.3:5.3.8.4-amd64
-docker pull harbor.oinone.top/oinone/oinone-designer-mini-v5.3:5.3.8.4-arm64
+docker pull harbor.oinone.top/oinone/oinone-designer-mini-v6.2:6.2.1-amd64
+docker pull harbor.oinone.top/oinone/oinone-designer-mini-v6.2:6.2.1-arm64
 ```
 
-# 六、运行数式Oinone
+# 五、运行数式Oinone
 ## （一）下载结构包
 + 先在服务器上建一个文件夹（推荐建在主目录下，方便查找），然后进入文件夹里。
 
@@ -93,7 +94,7 @@ mkdir oinone
 cd oinone
 ```
 
-+ 本地下载结构包[oinone-op-ds-all-mini.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1749102606898-f34ccc11-d83f-46e9-a2f6-b599a5e8b36a.zip)，解压后从本地电脑上传结构包到服务器
++ 本地下载结构包[oinone-op-ds-all-full.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1749714379891-ca0231e5-2d29-4e7f-ad52-f0a4eb920f78.zip)，解压后从本地电脑上传结构包到服务器
 
 ```plain
 #本地电脑上传结构包
@@ -106,7 +107,7 @@ scp home/user/myfolder(替换成本地电脑解压后的实际地址) username@i
 
   <div style="flex: 1; background: #f8f9fa; border-radius: 8px; padding: 16px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
 
-```shell
+``` shell
 #结构包目录
 |____config
 | |____logback.xml
@@ -116,9 +117,12 @@ scp home/user/myfolder(替换成本地电脑解压后的实际地址) username@i
 |____lib
 |____nginx
 | |____default.conf
+|____mq
+| |____broker.conf
 |____startup.sh
 |____startup.cmd
 ```
+
 
   </div>
 
@@ -128,9 +132,10 @@ scp home/user/myfolder(替换成本地电脑解压后的实际地址) username@i
 ```shell
 #镜像目录结构都在/opt目录下
 ├── jdk
+├── mq
 ├── nginx-1.15.5
 ├── nginx.conf
-└── pamirs
+├── pamirs
 │   ├── dist
 │   ├── ext
 │   │   ├── application.yml
@@ -148,10 +153,13 @@ scp home/user/myfolder(替换成本地电脑解压后的实际地址) username@i
 │   │   └── run.sh
 │   ├── static
 │   └── tables.txt
+├── redis
+├── redis.conf
+├── zoo.cfg
+└── zookeeper
 ```
   </div>
 </div>
-
 
 
 
@@ -166,12 +174,18 @@ docker run -d --name designer-allinone \
 -e DUBBO_IP_TO_REGISTRY=$IP \
 -e DUBBO_PORT_TO_REGISTRY=20880 \
 -p 8099:8091 \
--p 88:80 \
+-p 3307:3306 \
+-p 2182:2181 \
+-p 6378:6379 \
+-p 19876:9876 \
+-p 10991:10991 \
 -p 20880:20880 \
+-p 88:80 \
 -v $configDir/config/:/opt/pamirs/ext \
 -v $configDir/nginx:/opt/pamirs/nginx/vhost \
 -v $configDir/logs:/opt/pamirs/logs \
--v $configDir/lib:/opt/pamirs/outlib harbor.oinone.top/oinone/oinone-designer-mini-v$majorVersion:$version
+-v $configDir/mq/broker.conf:/opt/mq/conf/broker.conf \
+-v $configDir/lib:/opt/pamirs/outlib harbor.oinone.top/oinone/oinone-designer-full-v$majorVersion:$version
 ```
 
 ## （三）运行startup.sh
@@ -180,15 +194,27 @@ docker run -d --name designer-allinone \
 
 ```plain
 configDir=$(pwd)
-majorVersion=5.3  # 根据数式Oinone镜像的实际版本进行修改
-version=5.3.8.4   # 根据数式Oinone镜像的实际版本进行修改
+majorVersion=6.2  # 根据数式Oinone镜像的实际版本进行修改
+version=6.2.1     # 根据数式Oinone镜像的实际版本进行修改
 IP=192.168.0.121  # 改为服务器 IP
 ```
 
-### 2.修改配置文件 config目录下的application.yml文件
-如果Mysql、Zookeeper、Redis、RocketMQ不在一个宿主机中，在文件中找到如下代码，修改IP、端口、用户名以及密码等配置项
+### 2.修改mq目录下的broker.conf文件
+在文件中找到如下代码，修改`namesrvAddr` 和 `brokerIP1` 的IP地址等配置项
 
-+ Mysql
+```plain
+namesrvAddr=127.0.0.1:9876   # 改成127.0.0.1:9876
+brokerIP1=192.168.0.121  # 改成宿主机IP
+```
+
+:::warning 提示：
+
+如果不知道ip是多少，执行命令：`ipconfig` 或者 `ip a`
+
+:::
+
+### 3.修改配置文件 config目录下的application.yml文件
+在文件中找到如下代码，修改数据库的IP、端口、用户名以及密码等配置项
 
 ```yaml
 # application.yml文件
@@ -207,99 +233,9 @@ pamirs:
       url: jdbc:mysql://192.168.0.129:3306/demo_base?useSSL=false&allowPublicKeyRetrieval=true&useServerPrepStmts=true&cachePrepStmts=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true
       username: root
       password: shushi@2019
-
 ```
 
-+ Zookeeper
-
-```yaml
-# application.yml文件
-dubbo:
-  application:
-    name: pamirs-designer
-    version: 1.0.0
-  registry:
-    address: zookeeper://127.0.0.1:2181
-  protocol:
-    name: dubbo
-    port: 20880
-    serialization: pamirs
-  consumer:
-    timeout: 5000
-  provider:
-    timeout: 5000
-  scan:
-    base-packages: pro.shushi
-  cloud:
-    subscribed-services:
-pamirs:
-  zookeeper:
-    zkConnectString: 127.0.0.1:2181
-    zkSessionTimeout: 60000
-    rootPath: /oinone
-```
-
-+ Redis
-
-```yaml
-# application.yml文件
-spring:
-  redis:
-    database: 0
-    host: 127.0.0.1
-    port: 6379
-    timeout: 2000
-    password: Abc@1234
-    jedis:
-      pool:
-        # 连接池中的最大空闲连接 默认8
-        max-idle: 16
-        # 连接池中的最小空闲连接 默认0
-        min-idle: 0
-        # 连接池最大连接数 默认8 ，负数表示没有限制
-        max-active: 16
-        # 连接池最大阻塞等待时间（使用负值表示没有限制） 默认-1
-        max-wait: 3000
-```
-
-+ RocketMQ
-
-```yaml
-# application.yml文件
-spring:
-  rocketmq:
-    name-server: 127.0.0.1:9876
-```
-
-+ 文件存储oss
-
-```yaml
-cdn:
-  oss:
-    name: MINIO
-    type: MINIO
-    bucket: pamirs
-    uploadUrl: http://xxx.xxx.xxx.xxx:9000
-    downloadUrl: http://xxx.xxx.xxx.xxx:9000
-    accessKeyId: xxx
-    accessKeySecret: xxx
-    mainDir: upload/demo/
-    validTime: 3600000
-    timeout: 600000
-    active: true
-    referer:
-    localFolderUrl: 
-```
-
-:::danger 警告
-
-体验企业版时数式会提默认配置，但需要注意，cdn正式环境需要替换成自己的服务器，而不是用数式科技提供测试服务器，该服务器会定时清理，导致文件丢失。
-
-:::
-
-更多oss配置请参考：[文件存储配置](/en/DevManual/Reference/Back-EndFramework/module-API.md#十四-文件存储配置-pamirs-file)
-
-### 3.执行 `startup.sh` 并查看日志
+### 4.执行 `startup.sh` 并查看日志
 ```plain
 sh startup.sh
 ```
@@ -323,3 +259,6 @@ docker logs
 ```
 
 启动成功之后可以通过浏览器访问 `http://服务器ip:88/`，账号密码为`admin/admin`
+
+
+

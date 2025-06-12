@@ -3,10 +3,10 @@ title: 软件使用许可和合约
 index: true
 category:
   - 软件使用许可和合约
-order: 5
+order: 6
 prev:
-  text: Content guidelines
-  link: /zh-cn/Contribute/DocumentationContributions/content-guidelines.md
+  text: 第三方开源软件及许可说明
+  link: /zh-cn/Third-Party-Open-Source-Software-And-License-Notice.md
 ---
 # 一、Oinone 6 社区版
 

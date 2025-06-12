@@ -72,7 +72,7 @@ pamirs:
     url: 127.0.0.1:9200
 ```
 
-注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 ## （四）项目的模块增加模块依赖
 XXXModule 增加对 ChannelModule 的依赖

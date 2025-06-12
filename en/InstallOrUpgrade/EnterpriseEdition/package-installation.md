@@ -4,7 +4,9 @@ index: true
 category:
   - 安装与升级
 order: 4
-
+next:
+  text: 从社区版转向企业版
+  link: /zh-cn/InstallOrUpgrade/from-community-to-enterprise.md
 ---
 # 一、概述
 :::info 注意

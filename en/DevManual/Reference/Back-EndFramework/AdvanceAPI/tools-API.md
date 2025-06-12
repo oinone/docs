@@ -8,8 +8,8 @@ category:
   - Advance API
 order: 10
 next:
-  text: 前端 API（Front-End framework）
-  link: /en/DevManual/Reference/Front-EndFramework/README.md
+  text: 框架概览（Framework Overview）
+  link: /zh-cn/DevManual/Reference/Front-EndFramework/framework-overview.md
 ---
 Oinone 业务常用工具类 API 文档指南
 

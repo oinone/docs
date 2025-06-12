@@ -3,13 +3,13 @@ title: 常见问题
 index: true
 category:
   - 安装与升级
-order: 9
+order: 7
 prev:
   text: Maven安装与注意事项
-  link: /en/InstallOrUpgrade/Dev-ENV/Maven-setup.md
+  link: /zh-cn/InstallOrUpgrade/Dev-ENV/Maven-setup.md
 next:
   text: 用户手册
-  link: /en/UserManual/README.md
+  link: /zh-cn/UserManual/README.md
 ---
 # 一、网络不通：检查防火墙（以CentOS7为例）
 ## （一）查看防火墙是否开启

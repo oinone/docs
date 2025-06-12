@@ -6,10 +6,10 @@ category:
   - 操作指南
 order: 1
 prev:
-  text: 操作指南
-  link: /en/DevManual/OperationGuide/README.md
+  text: 调试工具（Debug Tools）
+  link: /zh-cn/DevManual/Tutorials/debug-tools.md
 ---
-回想一下我们在 “[探索前端框架](/en/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter1-widget.md)” 章节中创建的组件，无一例外的都使用了一个被命名为 `BaseElementWidget` 的基类，并且它们的使用方式也都不尽相同。为了便于我们回忆之前的内容，下面是之前“计数器”组件的部分代码和它的使用方式。
+回想一下我们在 “[探索前端框架](/zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter1-widget.md)” 章节中创建的组件，无一例外的都使用了一个被命名为 `BaseElementWidget` 的基类，并且它们的使用方式也都不尽相同。为了便于我们回忆之前的内容，下面是之前“计数器”组件的部分代码和它的使用方式。
 
 ```typescript
 import Counter from './Counter.vue';
@@ -49,9 +49,9 @@ export class CounterWidget extends BaseElementWidget {
 
 布尔类型的字段在表单视图中可以使用开关组件，在开始练习之前，我们需要有一个可以看到原始效果的页面。如果在系统中没有找到现有的，可以用“界面设计器”设计一个对应页面用于此次练习。
 
-[界面设计器使用手册](/en/UserManual/Designers/UIDesigner/README.md)
+[界面设计器使用手册](/zh-cn/UserManual/Designers/UIDesigner/README.md)
 
-[更多 Oinone 内置组件](/en/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
+[更多 Oinone 内置组件](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
 
 :::
 
@@ -87,7 +87,7 @@ export class FormCustomSwitchFieldWidget extends FormBooleanSwitchFieldWidget {
 
 通常情况下我们不会这样注册字段组件，但作为练习的一部分，这样做也没什么关系。
 
-更多关于字段组件注册的内容可参考：[Field](/en/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
+更多关于字段组件注册的内容可参考：[Field](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
 
 :::
 
@@ -134,7 +134,7 @@ public get uncheckedText() {
 
 :::warning 提示
 
-更多关于 Oinone 内置标准组件的内容可参考：[Oio Components](/en/DevManual/Reference/Front-EndFramework/OioComponents/README.md)
+更多关于 Oinone 内置标准组件的内容可参考：[Oio Components](/zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/README.md)
 
 :::
 
@@ -212,7 +212,7 @@ Switch.vue
 
 Widget 框架对组件进行了分类，通过分类特征，我们在注册组件时可以根据这些特征来决定组件的使用范围，使用时可以在所有注册的组件中选择一个最合适的组件进行渲染。
 
-在这里仅简要说明一下字段组件注册的基础内容，以确保我们在接下来的学习中可以较为容易的理解一些概念。更多组件注册的相关内容可参考：[Field](/en/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
+在这里仅简要说明一下字段组件注册的基础内容，以确保我们在接下来的学习中可以较为容易的理解一些概念。更多组件注册的相关内容可参考：[Field](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
 
 ## （一）字段组件的注册可选项
 
@@ -305,7 +305,7 @@ export class FormBooleanSwitchFieldWidget extends FormFieldWidget {
 + viewType: [ViewType.Form, ViewType.Search]（可编辑）
 + viewType: [ViewType.Detail, ViewType.Gallery]（不可编辑）
 
-更多关于内置字段组件的内容请参考：[Field](/en/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
+更多关于内置字段组件的内容请参考：[Field](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
 
 :::
 
@@ -352,7 +352,7 @@ export class FormRedInputWidget extends FormFieldWidget<string> {
 
 :::warning 提示
 
-更多关于 Oinone 内置标准组件的内容可参考：[Oio Components](/en/DevManual/Reference/Front-EndFramework/OioComponents/README.md)
+更多关于 Oinone 内置标准组件的内容可参考：[Oio Components](/zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/README.md)
 
 :::
 
@@ -372,7 +372,7 @@ export class FormRedInputWidget extends FormFieldWidget<string> {
 
 :::warning 提示
 
-更多关于表单字段组件的 API 内容可参考：[Form Field](/en/DevManual/Reference/Front-EndFramework/Widget/Field/form-field.md)
+更多关于表单字段组件的 API 内容可参考：[Form Field](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/form-field.md)
 
 :::
 
@@ -437,7 +437,7 @@ public renderDefaultSlot(context: RowContext): VNode[] | string {
 
 :::warning 提示
 
-更多关于表格字段组件的 API 内容可参考：[Table Field](/en/DevManual/Reference/Front-EndFramework/Widget/Field/table-field.md)
+更多关于表格字段组件的 API 内容可参考：[Table Field](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/table-field.md)
 
 :::
 
@@ -446,4 +446,4 @@ public renderDefaultSlot(context: RowContext): VNode[] | string {
 如果你有时间的话，这里有一些你可以尝试进行的练习内容：
 
 1. 在详情和画廊中定义一个红色的只读输入框组件，并在页面中使用它。
-2. 结合界面设计器的自定义组件，将我们在本次练习中实现的组件作为自定义组件，让它可以用界面设计器放置在任何有效字段上进行使用。参考：[自定义组件与设计器结合 - 字段组件](/en/DevManual/OperationGuide/combination-of-customized-widget-and-designer.md#二、自定义字段组件)
+2. 结合界面设计器的自定义组件，将我们在本次练习中实现的组件作为自定义组件，让它可以用界面设计器放置在任何有效字段上进行使用。参考：[自定义组件与设计器结合 - 字段组件](/zh-cn/DevManual/OperationGuide/combination-of-customized-widget-and-designer.md#二、自定义字段组件)

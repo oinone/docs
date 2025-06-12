@@ -5,7 +5,6 @@ category:
   - 研发手册
   - 操作指南
 order: 4
-
 ---
 让我们回想一下在 “[Build a dashboard](/zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter2-build-a-dashboard.md)” 章节我们初步接触的 “[发起一个后端请求](/zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter2-build-a-dashboard.md#二、理论-发起一个后端请求)” 的理论内容，我们通过 `GenericFunctionService` 服务实例较为方便的发起了一个后端请求。在本章内容中，我们将对 GraphQL 请求进行较为详细的介绍。
 

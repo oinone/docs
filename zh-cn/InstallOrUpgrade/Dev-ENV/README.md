@@ -6,7 +6,10 @@ category:
   - 环境准备
 dir:
   link: true
-  order: 8
+  order: 1
+prev:
+  text: 安装与升级
+  link: /zh-cn/InstallOrUpgrade/README.md
 next:
   text: JDK安装与注意事项
   link: /zh-cn/InstallOrUpgrade/Dev-ENV/JDK-setup.md

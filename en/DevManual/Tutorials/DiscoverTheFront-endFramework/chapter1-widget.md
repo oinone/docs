@@ -8,7 +8,7 @@ category:
 order: 1
 prev:
   text: 探索前端框架（Discover the Front-end Framework）
-  link: /en/DevManual/Tutorials/DiscoverTheFront-endFramework/README.md
+  link: /zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/README.md
 ---
 本章介绍了 Widget 框架，它是为 Oinone 量身定制的组件系统。Widget 组件的主要组成部分是 `TypeScript` 组件和 `Vue` 组件。
 
@@ -158,7 +158,7 @@ oinone-frontend-tutorials
 
 :::warning 提示s
 
-更多关于元素组件的内容请参考：[Element](/en/DevManual/Reference/Front-EndFramework/Widget/element.md)
+更多关于元素组件的内容请参考：[Element](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md)
 
 :::
 
@@ -376,7 +376,7 @@ public get content() {
 
 :::warning 提示
 
-更多关于布局（Layout）的内容请参考：[Layout](/en/DevManual/Reference/Front-EndFramework/Widget/layout.md)
+更多关于布局（Layout）的内容请参考：[Layout](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/layout.md)
 
 :::
 
@@ -412,7 +412,7 @@ Widget 框架使用面向对象继承的特性，因此无法避免的是，部�
 
 :::warning 提示
 
-更多关于组件生命周期的内容请参考：[Component Lifecycle](/en/DevManual/Reference/Front-EndFramework/Widget/component-lifecycle.md)
+更多关于组件生命周期的内容请参考：[Component Lifecycle](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/component-lifecycle.md)
 
 :::
 

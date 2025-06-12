@@ -7,8 +7,8 @@ category:
   - Oio 组件
 order: 3
 next:
-  text: 服务（Services）
-  link: /en/DevManual/Reference/Front-EndFramework/Services/README.md
+  text: Metadata Service
+  link: /zh-cn/DevManual/Reference/Front-EndFramework/Services/metadata-service.md
 ---
 # 一、Reference List
 

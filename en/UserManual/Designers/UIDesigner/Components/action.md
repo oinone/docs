@@ -7,7 +7,7 @@ category:
 order: 4
 next:
   text: 自定义组件
-  link: /en/UserManual/Designers/UIDesigner/CustomizedComponents/README.md
+  link: /zh-cn/UserManual/Designers/UIDesigner/CustomizedComponents/README.md
 ---
 # 一、通用属性
 + 动作名称/按钮文字：组件在当前页面的展示名称。

@@ -8,8 +8,8 @@ category:
   - Advance API
 order: 1
 prev:
-  text: 高级 API（Advance API）
-  link: /en/DevManual/Reference/Back-EndFramework/AdvanceAPI/README.md
+  text: 安全机制（Security in Oinone）
+  link: /zh-cn/DevManual/Reference/Back-EndFramework/security-in-oinone.md
 ---
 # 一、请求 URL 规范
 

@@ -5,9 +5,8 @@ category:
   - 研发手册
   - 操作指南
 order: 4
-
 ---
-让我们回想一下在 “[Build a dashboard](/en/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter2-build-a-dashboard.md)” 章节我们初步接触的 “[发起一个后端请求](/en/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter2-build-a-dashboard.md#二、理论-发起一个后端请求)” 的理论内容，我们通过 `GenericFunctionService` 服务实例较为方便的发起了一个后端请求。在本章内容中，我们将对 GraphQL 请求进行较为详细的介绍。
+让我们回想一下在 “[Build a dashboard](/zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter2-build-a-dashboard.md)” 章节我们初步接触的 “[发起一个后端请求](/zh-cn/DevManual/Tutorials/DiscoverTheFront-endFramework/chapter2-build-a-dashboard.md#二、理论-发起一个后端请求)” 的理论内容，我们通过 `GenericFunctionService` 服务实例较为方便的发起了一个后端请求。在本章内容中，我们将对 GraphQL 请求进行较为详细的介绍。
 
 为了方便描述，以下内容将 GraphQL 简称为 GQL。
 
@@ -25,13 +24,13 @@ order: 4
 
 在学习本章内容之前，你需要对 `GQL` 有一个初步的认识：
 
-+ 参考 “[Front-End Overview](/en/DevManual/Tutorials/MasterTheFront-endFramework/chapter1-front-end-overview.md#二、graphql协议)” GraphQL协议部分。
++ 参考 “[Front-End Overview](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter1-front-end-overview.md#二、graphql协议)” GraphQL协议部分。
 + 参考 “[GraphQL 入门](https://graphql.cn/learn)” 官方文档。
 + 参考 “[GraphQL 和 REST 之间有何区别](https://aws.amazon.com/cn/compare/the-difference-between-graphql-and-rest/)” 进一步了解。
 
 ## （一）从模型开始
 
-模型是所有功能的起点，让我们回顾一下 “[精通前端框架](/en/DevManual/Tutorials/MasterTheFront-endFramework/README.md)” 中使用模型，就让我们以 `GanttDemoModel` 模型为例开始吧。
+模型是所有功能的起点，让我们回顾一下 “[精通前端框架](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/README.md)” 中使用模型，就让我们以 `GanttDemoModel` 模型为例开始吧。
 
 这是本章使用到的模型（`GanttDemoModel`）信息：
 
@@ -59,9 +58,9 @@ order: 4
 
 :::warning 提示
 
-更多关于模型的概述内容请参考：[Front-End Overview](/en/DevManual/Tutorials/MasterTheFront-endFramework/chapter1-front-end-overview.md#三-模型)
+更多关于模型的概述内容请参考：[Front-End Overview](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter1-front-end-overview.md#三-模型)
 
-更多关于模型字段类型的内容请参考：[字段 Field](/en/DevManual/Reference/Back-EndFramework/ORM-API.md#二、字段-field)
+更多关于模型字段类型的内容请参考：[字段 Field](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md#二、字段-field)
 
 :::
 
@@ -137,7 +136,7 @@ order: 4
 
 +  queryByWrapper 和 queryOneByWrapper调用的是同一个函数，只是 fun 和 name 不同。
 
-更多关于函数入参、出参等详细内容请参考：[ORM API - Common ORM Methods](/en/DevManual/Reference/Back-EndFramework/ORM-API.md#五、common-orm-methods)
+更多关于函数入参、出参等详细内容请参考：[ORM API - Common ORM Methods](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md#五、common-orm-methods)
 
 :::
 
@@ -173,7 +172,7 @@ ${query/mutation} {
 
 :::warning 提示
 
-更多关于 RSQL 相关的内容请参考：[RSQL Service](/en/DevManual/Reference/Front-EndFramework/Services/RSQL-service.md)
+更多关于 RSQL 相关的内容请参考：[RSQL Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/RSQL-service.md)
 
 :::
 
@@ -231,7 +230,7 @@ export class GanttDemoModelService {
 
 在这个例子中，你可以任意删减 `responseParameters` 中定义的字段，并查看响应结果的区别。
 
-更多关于 HttpClient 的内容请参考：[HttpClient Service](/en/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
+更多关于 HttpClient 的内容请参考：[HttpClient Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
 
 :::
 
@@ -274,7 +273,7 @@ public static queryListByWrapperByWindowOpen(): void {
 
 :::warning 提示
 
-更多关于 环境配置 的内容请参考：[Environment](/en/DevManual/Reference/Front-EndFramework/environment.md)
+更多关于 环境配置 的内容请参考：[Environment](/zh-cn/DevManual/Reference/Front-EndFramework/environment.md)
 
 :::
 
@@ -363,9 +362,9 @@ return (
 
 其实 `GenericFunctionService` 最终还是通过 `FunctionService` 发起请求的，只是在发起请求之前通过 `ModelCache` 和 `FunctionCache` 自动获取了模型元数据和函数定义。
 
-更多关于元数据的内容请参考：[Metadata Service](/en/DevManual/Reference/Front-EndFramework/Services/metadata-service.md)
+更多关于元数据的内容请参考：[Metadata Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/metadata-service.md)
 
-更多关于 HTTP请求 的内容请参考：[HttpClient Service](/en/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
+更多关于 HTTP请求 的内容请参考：[HttpClient Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
 
 :::
 
@@ -469,7 +468,7 @@ export class CustomNetworkInterceptor implements NetworkInterceptor {
 
 当返回值为 true 时，表示继续执行其他拦截器。当返回值为 false 时，表示中断执行其他拦截器。
 
-更多关于拦截器的内容请参考：[HttpClient Service](/en/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
+更多关于拦截器的内容请参考：[HttpClient Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
 
 :::
 
@@ -489,7 +488,7 @@ VueOioProvider({
 
 :::warning 提示
 
-更多关于 `http.interceptor` 的内容请参考：[Framework Overview](/en/DevManual/Reference/Front-EndFramework/framework-overview.md)
+更多关于 `http.interceptor` 的内容请参考：[Framework Overview](/zh-cn/DevManual/Reference/Front-EndFramework/framework-overview.md)
 
 :::
 

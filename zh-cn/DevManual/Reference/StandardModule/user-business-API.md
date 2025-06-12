@@ -7,8 +7,8 @@ category:
   - 标准模块
 order: 1
 prev:
-  text: 标准模块（Standard Modules）
-  link: /zh-cn/DevManual/Reference/StandardModule/README.md
+  text: Translate Service
+  link: /zh-cn/DevManual/Reference/Front-EndFramework/Services/translate-service.md
 ---
 # 一、概述
 

@@ -12,7 +12,7 @@ order: 11
 
 本章仅涵盖了视图方面可实现功能的一小部分内容。如果想获取更全面的概述，请毫不犹豫地阅读参考文档。
 
-参考：与本章相关的文档可在 “[视图记录](/en/DevManual/Reference/UserInterface/view-records.md)” 和 “[视图架构](/en/DevManual/Reference/UserInterface/view-architectures.md)” 中找到。
+参考：与本章相关的文档可在 “[视图记录](/zh-cn/DevManual/Reference/UserInterface/view-records.md)” 和 “[视图架构](/zh-cn/DevManual/Reference/UserInterface/view-architectures.md)” 中找到。
 
 # 一、内联视图
 
@@ -152,7 +152,7 @@ public class TestLineSubModel extends IdModel {
 每当我们向模型中添加字段时，（几乎）从未需要担心这些字段在用户界面中的显示方式。例如，`Date` 字段会提供一个日期选择器，`one2many` 字段会自动显示为列表。Oinone 会根据字段类型选择合适的 “widget”。
 然而，在某些情况下，我们希望对字段进行特定的展示，这可以通过 `widget` 属性来实现。当我们使用 `widget="Checkbox"` 属性时，就已经在 `partners` 字段中使用过它了。如果我们没有使用该属性，那么该字段将显示为下拉框。
 
-每种字段类型都有一组可用于微调其显示效果的widget。有些widget还接受额外的选项。完整的列表可在 “[字段](/en/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)” 中找到。
+每种字段类型都有一组可用于微调其显示效果的widget。有些widget还接受额外的选项。完整的列表可在 “[字段](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)” 中找到。
 
 > 练习（Exercise）
 >
@@ -241,7 +241,7 @@ public class TestModel extends IdModel {
 
 上述代码中，`ordering` 用于指定视图层面的默认排序方式，而 `sortable` 则用于设定该视图是否支持手动排序 。
 
-更多有关视图插槽的机制，可在 “[视图架构](/en/DevManual/Reference/UserInterface/view-architectures.md)” 部分查阅。简而言之，此处的视图仅规定了页面所包含的元素，却未涉及页面布局的设定。页面最终呈现的效果，是布局与视图融合后的结果。而插槽，正是用于解决视图与布局如何合并问题的一种协议 。
+更多有关视图插槽的机制，可在 “[视图架构](/zh-cn/DevManual/Reference/UserInterface/view-architectures.md)” 部分查阅。简而言之，此处的视图仅规定了页面所包含的元素，却未涉及页面布局的设定。页面最终呈现的效果，是布局与视图融合后的结果。而插槽，正是用于解决视图与布局如何合并问题的一种协议 。
 
 > 练习（Exercise）
 >
@@ -253,7 +253,7 @@ public class TestModel extends IdModel {
 
 大家还跟得上节奏吗？这一章节的内容，对于后端研发的同学而言，可能颇具挑战，甚至会感到有些沮丧。不过，关于专门面向后端同学的视图知识讲解，就到此告一段落啦。
 
-想要详尽阐述所有可用于精细调整视图外观的功能，既不现实也没必要。所以，我们将聚焦于最常见的部分功能进行介绍，主要目的是让大家对 Oinone 的视图机制形成初步的认知。后续若涉及视图相关的细节操作，我们可以借助 Oinone 提供的界面设计器来进行可视化配置。这部分内容在[用户手册 - 界面设计器](/en/UserManual/Designers/UIDesigner/README.md)中有详细说明，倘若大家对视图相关内容兴趣浓厚，想要深入探究，也可前往 “[视图记录](/en/DevManual/Reference/UserInterface/view-records.md)” 和 “[视图架构](/en/DevManual/Reference/UserInterface/view-architectures.md)” 部分查阅更多资料。
+想要详尽阐述所有可用于精细调整视图外观的功能，既不现实也没必要。所以，我们将聚焦于最常见的部分功能进行介绍，主要目的是让大家对 Oinone 的视图机制形成初步的认知。后续若涉及视图相关的细节操作，我们可以借助 Oinone 提供的界面设计器来进行可视化配置。这部分内容在[用户手册 - 界面设计器](/zh-cn/UserManual/Designers/UIDesigner/README.md)中有详细说明，倘若大家对视图相关内容兴趣浓厚，想要深入探究，也可前往 “[视图记录](/zh-cn/DevManual/Reference/UserInterface/view-records.md)” 和 “[视图架构](/zh-cn/DevManual/Reference/UserInterface/view-architectures.md)” 部分查阅更多资料。
 
 
 

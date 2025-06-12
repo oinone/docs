@@ -6,8 +6,8 @@ category:
   - 环境准备
 order: 8
 next:
-  text: 常见问题
-  link: /en/InstallOrUpgrade/FAQ.md
+  text: 源码安装
+  link: /zh-cn/InstallOrUpgrade/CommunityEdition/source-code-installation.md
 ---
 # 一、下载安装包
 下载地址 [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)

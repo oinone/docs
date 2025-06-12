@@ -6,9 +6,11 @@ category:
   - Reference
   - 后端API
 order: 6
-
+next:
+  text: 网关协议 API（Protocol API）
+  link: /zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/protocol-API.md
 ---
-在学习这篇文章之前，你首先需要对 Oinone 安全相关内容进行一个初步了解，以便于理解本文所介绍的自定义相关内容。参考：[后端框架 - 安全简介](/en/DevManual/Tutorials/Back-endFramework/chapter4-a-brief-introduction-to-security.md)
+在学习这篇文章之前，你首先需要对 Oinone 安全相关内容进行一个初步了解，以便于理解本文所介绍的自定义相关内容。参考：[后端框架 - 安全简介](/zh-cn/DevManual/Tutorials/Back-endFramework/chapter4-a-brief-introduction-to-security.md)
 
 在 Oinone 中，采用 `RBAC` 标准权限控制体系，这在大多数管理信息系统中是较为通用的权限体系。不仅如此，除了对资源的访问控制外，Oinone 还提供了基于角色的数据访问控制。
 
@@ -103,11 +105,11 @@ PS：“$$” 是指模型编码与上一级模型编码相同，由于路径过
 
 基于 Oinone 对于模块的定义，我们需要将移动端应用作为一个独立应用进行定义。这样我们对于一个模块的权限过滤才不会意外的过滤那些需要权限控制的模块。
 
-让我们先通过之前的教程内容创建一个 `移动端应用（mobile_demo）`。参考：[后端框架 - 新建一个应用](/en/DevManual/Tutorials/Back-endFramework/chapter2-a-new-application.md)
+让我们先通过之前的教程内容创建一个 `移动端应用（mobile_demo）`。参考：[后端框架 - 新建一个应用](/zh-cn/DevManual/Tutorials/Back-endFramework/chapter2-a-new-application.md)
 
 :::warning 提示：
 
-关于模块化设计的相关内容可参考：[研发范式：模块化设计](/en/DevManual/R&DParadigm/R&D-paradigm-modular-design.md)
+关于模块化设计的相关内容可参考：[研发范式：模块化设计](/zh-cn/DevManual/R&DParadigm/R&D-paradigm-modular-design.md)
 
 :::
 

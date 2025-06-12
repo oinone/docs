@@ -6,8 +6,8 @@ category:
   - 最佳范式
 order: 5
 next:
-  text: 常见解决方案
-  link: /en/DevManual/CommonSolutions/README.md
+  text: 全局layout：自定义树形组件，树形组件默认选中第一个值
+  link: /zh-cn/DevManual/CommonSolutions/Front-End/global-layout-custom-tree-component-default-selection.md
 ---
 # 一、引言
 
@@ -63,7 +63,7 @@ Oinone技术框架的本质价值在于**建立软件工业化的技术基座**�
 
 ## （一）研发流程最佳范式
 
-参考：与此主题相关的文档可在 “[研发范式：研发流程](/en/DevManual/R&DParadigm/R&D-paradigm-R&D-process.md)” 中找到。
+参考：与此主题相关的文档可在 “[研发范式：研发流程](/zh-cn/DevManual/R&DParadigm/R&D-paradigm-R&D-process.md)” 中找到。
 
 数式 Oinone 框架优化前后端分离开发模式。前端仅在组件不满足需求或开发特色组件时介入，减少前后端沟通成本，提升整体效率。
 
@@ -77,13 +77,13 @@ Oinone技术框架的本质价值在于**建立软件工业化的技术基座**�
 
 ## （二）模块设计最佳范式
 
-参考：与此主题相关的文档可在 “[研发范式：模块化设计](/en/DevManual/R&DParadigm/R&D-paradigm-modular-design.md)” 中找到。
+参考：与此主题相关的文档可在 “[研发范式：模块化设计](/zh-cn/DevManual/R&DParadigm/R&D-paradigm-modular-design.md)” 中找到。
 
 Oinone 的模块化架构是其技术体系的基石，强调 "高内聚、低耦合" 的设计原则。每个模块作为独立单元，封装特定领域的功能逻辑。在业务模块划分中，应充分利用这一特性，将不同的业务功能封装在独立的模块中，每个模块专注于解决特定的业务领域问题。
 
 ## （三）模型设计最佳范式
 
-参考：与此主题相关的文档可在 “[研发范式：模型设计](/en/DevManual/R&DParadigm/R&D-paradigm-model-design.md)” 中找到。
+参考：与此主题相关的文档可在 “[研发范式：模型设计](/zh-cn/DevManual/R&DParadigm/R&D-paradigm-model-design.md)” 中找到。
 
 Oinone 作为特定的业务系统或框架，其模型设计的优劣直接影响系统的性能和扩展性。数据库设计的第三范式（3NF）是一种经过实践检验的数据建模准则，将第三范式融入 Oinone 模型设计，有助于构建出结构清晰、高效稳定的模型体系，从而更好地满足业务需求。实际建议如下：
 
@@ -158,7 +158,7 @@ Oinone 集成设计器支持丰富的连接器类型，如应用（WebService �
 
 #### 步骤四、借助 Oinone 的低无一体特性
 
-参考：与此主题相关的文档可在 “[用户手册：低无一体](/en/UserManual/low-code-no-code-integration.md)” 中找到。
+参考：与此主题相关的文档可在 “[用户手册：低无一体](/zh-cn/UserManual/low-code-no-code-integration.md)” 中找到。
 
 当出现有特殊逻辑时，利用低无一体反向生产 Oinone 的代码工程，再同样以遵循 Oinone 的开发规范利用继承、扩展点、钩子等特性开发客户化定制逻辑。
 

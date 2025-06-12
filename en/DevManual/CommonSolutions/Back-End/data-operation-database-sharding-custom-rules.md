@@ -70,7 +70,7 @@ pamirs:
           sql.show: true
 ```
 
-注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 # 三、自定义规则
 + 默认规则，即普遍适用的分库分表策略，常见方式包括依据数据量、采用哈希算法等实施分库分表操作。在一般情形下，默认规则足以满足业务需求。
@@ -277,7 +277,7 @@ pamirs:
                 type: APP_USER_CODE_TYPE
 ```
 
-注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 ## （三）配置自定义规则SPI
 ![](https://oinone-jar.oss-cn-zhangjiakou.aliyuncs.com/welcome-document/Development/CommonSolutions/2024051104035339-1024x314-20250530144830015.png)

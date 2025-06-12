@@ -68,15 +68,15 @@ order: 2
 ### 企业版
 ```shell
 ##oinone-designer-mini-v大版本.中版本:全版本
-docker pull harbor.oinone.top/oinone/oinone-designer-mini-v5.3:5.3.8.4
+docker pull harbor.oinone.top/oinone/oinone-designer-mini-v6.2:6.2.1
 ```
 
 如镜像拉取过慢，可在对应镜像Tag添加`-amd64`、`-arm64`后缀获取单一架构镜像。
 
 ```shell
 ##oinone-designer-mini-v大版本.中版本:全版本-架构Tag
-docker pull harbor.oinone.top/oinone/oinone-designer-mini-v5.3:5.3.8.4-amd64
-docker pull harbor.oinone.top/oinone/oinone-designer-mini-v5.3:5.3.8.4-arm64
+docker pull harbor.oinone.top/oinone/oinone-designer-mini-v6.2:6.2.1-amd64
+docker pull harbor.oinone.top/oinone/oinone-designer-mini-v6.2:6.2.1-arm64
 ```
 
 # 六、运行数式Oinone
@@ -93,7 +93,7 @@ mkdir oinone
 cd oinone
 ```
 
-+ 本地下载结构包[oinone-op-ds-all-mini.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1749102606898-f34ccc11-d83f-46e9-a2f6-b599a5e8b36a.zip)，解压后从本地电脑上传结构包到服务器
++ 本地下载结构包[oinone-op-ds-all-mini.zip](https://gounixiangxiang.yuque.com/attachments/yuque/0/2025/zip/324864/1749714397061-53fc8e46-f7b3-4ba6-9d7d-b1ba71df95a7.zip)，解压后从本地电脑上传结构包到服务器
 
 ```plain
 #本地电脑上传结构包
@@ -159,8 +159,8 @@ scp home/user/myfolder(替换成本地电脑解压后的实际地址) username@i
 #startup.sh文件内容
 #!/bin/bash
 configDir=$(pwd)
-majorVersion=5.3
-version=5.3.8.4
+majorVersion=6.2
+version=6.2.1
 IP=192.168.0.121
 docker run -d --name designer-allinone \
 -e DUBBO_IP_TO_REGISTRY=$IP \
@@ -180,8 +180,8 @@ docker run -d --name designer-allinone \
 
 ```plain
 configDir=$(pwd)
-majorVersion=5.3  # 根据数式Oinone镜像的实际版本进行修改
-version=5.3.8.4   # 根据数式Oinone镜像的实际版本进行修改
+majorVersion=6.2  # 根据数式Oinone镜像的实际版本进行修改
+version=6.2.1     # 根据数式Oinone镜像的实际版本进行修改
 IP=192.168.0.121  # 改为服务器 IP
 ```
 

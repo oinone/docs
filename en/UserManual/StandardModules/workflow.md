@@ -6,7 +6,7 @@ category:
 order: 5
 prev:
   text: 角色与权限
-  link: /en/UserManual/StandardModules/AdministrationCenter/role-and-permission.md
+  link: /zh-cn/UserManual/StandardModules/AdministrationCenter/role-and-permission.md
 ---
 # 一、工作流
 同工作台，详情可见工作台文档

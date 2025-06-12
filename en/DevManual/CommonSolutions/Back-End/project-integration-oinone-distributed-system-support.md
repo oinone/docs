@@ -122,7 +122,7 @@ dubbo:
     disabled: true
 ```
 
-注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 ## （三）模块启动的最⼩集
 ```yaml
@@ -135,7 +135,7 @@ pamirs:
      - 业务工程的Module
 ```
 
-注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 ## **（四）业务模型间的依赖关系**
 + **服务调用方（Client 端）在启动 yml 配置方面**：服务调用方（即 Client 端）在启动 yml 文件的 `modules` 配置中，不应安装服务提供方的 Module。此操作旨在确保 Client 端启动配置的简洁性与针对性，避免引入不必要的模块，从而提高启动效率与系统稳定性。
@@ -208,7 +208,7 @@ logging:
     org.apache.dubbo.metadata.store.nacos.NacosMetadataReport: off
 ```
 
-注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 # 三、分布式支持-事务相关
 ## **（一）分布式事务解决方案**

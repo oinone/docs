@@ -45,7 +45,7 @@ pamirs:
       asyncInit: true
 ```
 
-注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 ## （一）连接url配置
 暂无官方资料
@@ -79,7 +79,7 @@ pamirs:
         major-version: 14.3
 ```
 
-注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 | 数据库版本 | type | version | majorVersion |
 | --- | --- | --- | --- |

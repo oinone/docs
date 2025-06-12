@@ -7,8 +7,8 @@ category:
   - Oio 组件
 order: 1
 prev:
-  text: Oio 组件（Oio Components）
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/README.md
+  text: Gallery Field
+  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/gallery-field.md
 ---
 # 一、Reference List
 

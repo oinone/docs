@@ -3,8 +3,8 @@ title: 软件使用许可与合约
 index: true
 category:
   - 软件使用许可与合约
-order: 5
+order: 6
 prev:
   text: Content guidelines
-  link: /en/Contribute/DocumentationContributions/content-guidelines.md
+  link: /zh-cn/Contribute/DocumentationContributions/content-guidelines.md
 ---

@@ -9,8 +9,8 @@ category:
   - Field
 order: 5
 next:
-  text: Oio 组件（Oio Components）
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/README.md
+  text: Vue UI Antd
+  link: /zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/vue-UI-antd.md
 ---
 # 一、Reference List
 

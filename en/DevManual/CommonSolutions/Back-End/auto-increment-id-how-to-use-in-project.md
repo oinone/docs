@@ -78,7 +78,7 @@ pamirs:
         table-pattern: '${moduleAbbr}_%s'
 ```
 
-注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 # 三、手动方式获取 ID
 

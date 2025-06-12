@@ -8,8 +8,8 @@ category:
   - Services
 order: 10
 next:
-  text: User interface
-  link: /en/DevManual/Reference/UserInterface/README.md
+  text: 用户与商业主体 API（User & Business API）
+  link: /zh-cn/DevManual/Reference/StandardModule/user-business-API.md
 ---
 
-The document is currently in preparation, please stay tuned ...
+文档正在筹备中，敬请期待...

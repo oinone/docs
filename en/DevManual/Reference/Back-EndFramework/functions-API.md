@@ -975,7 +975,7 @@ Models.directive().run(() -> {
 
 ### 1、YMAL配置
 
-需完成[事件配置](/en/DevManual/Reference/Back-EndFramework/module-API.md#3、配置中心-pamirs-zookeeper)，[数据记录配置](/en/DevManual/Reference/Back-EndFramework/module-API.md#十-数据记录配置-pamirs-record-sql)，并添加 `sql_record` 和 `trigger` 两个模块依赖，具体配置如下：
+需完成[事件配置](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md#3、配置中心-pamirs-zookeeper)，[数据记录配置](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md#十-数据记录配置-pamirs-record-sql)，并添加 `sql_record` 和 `trigger` 两个模块依赖，具体配置如下：
 
 ```yaml
 spring:

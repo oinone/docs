@@ -3,7 +3,7 @@ title: 常见问题
 index: true
 category:
   - 安装与升级
-order: 9
+order: 7
 prev:
   text: Maven安装与注意事项
   link: /zh-cn/InstallOrUpgrade/Dev-ENV/Maven-setup.md

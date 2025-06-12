@@ -5,8 +5,8 @@ category:
   - 常见问题（faq）
 order: 1
 prev:
-  text: 常见问题
-  link: /zh-cn/DevManual/FAQ/README.md
+  text: 项目部署：界面设计器的导入导出
+  link: /zh-cn/DevManual/CommonSolutions/Back-End/project-deployment-ui-designer-import-export.md
 ---
 # 一、如何获取许可证？
 联系数式运维人员获取许可证。（以下内容全部使用 <license.lic> 表示许可证文件路径）

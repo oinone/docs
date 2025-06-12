@@ -5,8 +5,8 @@ category:
    - 前端
 order: 15
 next:
-  text: 后端
-  link: /en/DevManual/CommonSolutions/Back-End/README.md
+  text: 依赖配置：如何添加数据可视化运行时依赖
+  link: /zh-cn/DevManual/CommonSolutions/Back-End/dependency-configuration-how-to-add-data-visualization-dependencies.md
 ---
 # 一、问题概述
 在 Oinone 平台内置路由中，默认了三种路由
