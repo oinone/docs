@@ -41,10 +41,9 @@ const options: SidebarOptions = {
     },
     {
       text: "software-licenses",
-      icon: "/assets/icon/软件使用许可和合约.svg",
+      icon: "/assets/icon/第三方开源软件及许可说明备份.svg",
       link: "software-licenses",
     },
-    
   ],
 };
 
@@ -87,12 +86,11 @@ const zhCNOptions: SidebarOptions = {
       icon: "/assets/icon/软件使用许可和合约.svg",
       link: "Third-Party-Open-Source-Software-And-License-Notice",
     },
-    { 
+    {
       text: "软件使用许可和合约",
       icon: "/assets/icon/软件使用许可和合约.svg",
       link: "software-licenses",
     },
-    
   ],
 };
 
