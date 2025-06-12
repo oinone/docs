@@ -1,19 +1,19 @@
 ---
-title: 第三方开源软件及许可说明
+title: Third-Party Open-Source Software and License Notice
 index: true
 category:
-  - 第三方开源软件及许可说明
+  - Third-Party Open-Source Software and License Notice
 order: 5
 prev:
   text: Content guidelines
   link: /en/Contribute/DocumentationContributions/content-guidelines.md
 next:
-  text: 软件使用许可和合约
+  text: Software License and Contract
   link: /en/software-licenses.md
 ---
-#  Oinone 前端使用的第三方开源软件声明：
+#  Third-Party Open Source Software Statement for Oinone Frontend
 
-|    三方软件名    | 版本号  |                         License 类型                         |
+|    Open Source Software    | Version  |                         License                         |
 | :--------------: | :-----: | :----------------------------------------------------------: |
 |       vue        | 3.2.40  |    [MIT](https://github.com/vuejs/core/blob/main/LICENSE)    |
 |   bignumber.js   |  9.0.0  | [MIT](https://github.com/MikeMcl/bignumber.js/blob/main/LICENCE.md) |
@@ -59,9 +59,9 @@ next:
 |   element-plus   | 2.2.17  | [MIT](https://github.com/element-plus/element-plus/blob/dev/LICENSE) |
 
 
-#  Oinone 后端使用的第三方开源软件声明：
+#  Third-Party Open Source Software Statement for Oinone Backend
 
-|                          三方软件名                          |      版本号      | License 类型                                                 |
+|                          Open Source Software                          |      Version      | License                                                  |
 | :----------------------------------------------------------: | :--------------: | ------------------------------------------------------------ |
 | [elasticsearch-rest-client](https://github.com/elastic/elasticsearch) |      8.4.1       | [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt) |
 |              [logback](http://logback.qos.ch/)               |      1.2.3       | [Eclipse Public License - v 1.0](http://www.eclipse.org/legal/epl-v10.html)<br/>[GNU Lesser General Public License](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) |
