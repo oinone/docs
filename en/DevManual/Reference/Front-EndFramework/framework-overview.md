@@ -8,7 +8,7 @@ category:
 order: 1
 prev:
   text: 通用工具 API（Tools API）
-  link: /zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/tools-API.md
+  link: /en/DevManual/Reference/Back-EndFramework/AdvanceAPI/tools-API.md
 ---
 Oinone Kunlun 框架是针对 Oinone Pamirs 提供的一组功能，用于帮助构建在浏览器中运行的 Oinone 应用程序。同时，Oinone Kunlun 框架是一个单页应用程序，并基于 Vue 框架提供了一组功能，通常称为 Web 客户端（可通过 URL/web 访问）。
 
@@ -83,7 +83,7 @@ src
 
 对于代码结构的划分，我们应当根据业务实际情况有选择的使用适合业务工程的代码结构，不应执迷于一种单一的代码结构。上述代码结构仅仅是 Oinone 基于组件标准化这一场景给出的其中一种代码结构，这几乎适用于任何首次接触和使用 Oinone 的初学者，也是最贴近 Oinone 元数据分类的一种代码结构。
 
-更多关于研发范式的内容请参考：[Widget 组件设计范式](/zh-cn/DevManual/R&DParadigm/R&D-paradigm-widget-design.md)
+更多关于研发范式的内容请参考：[Widget 组件设计范式](/en/DevManual/R&DParadigm/R&D-paradigm-widget-design.md)
 
 :::
 
@@ -109,7 +109,7 @@ src
 
 :::warning 提示
 
-更多关于环境配置的内容请参考：[Environment](/zh-cn/DevManual/Reference/Front-EndFramework/environment.md)
+更多关于环境配置的内容请参考：[Environment](/en/DevManual/Reference/Front-EndFramework/environment.md)
 
 :::
 
@@ -134,7 +134,7 @@ protected doSomething() {
 
 :::warning 提示
 
-更多关于上下文的内容请参考：[Context](/zh-cn/DevManual/Reference/Front-EndFramework/context.md)
+更多关于上下文的内容请参考：[Context](/en/DevManual/Reference/Front-EndFramework/context.md)
 
 :::
 
@@ -199,7 +199,7 @@ protected beforeMount() {
 
 :::warning 提示
 
-更多关于路由的内容请参考：[Router Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/router-service.md)
+更多关于路由的内容请参考：[Router Service](/en/DevManual/Reference/Front-EndFramework/Services/router-service.md)
 
 :::
 
@@ -227,7 +227,7 @@ protected beforeMount() {
 
 :::warning 提示
 
-更多关于渲染的内容请参考：[View](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/README.md)
+更多关于渲染的内容请参考：[View](/en/DevManual/Reference/Front-EndFramework/Widget/View/README.md)
 
 :::
 
@@ -255,7 +255,7 @@ export class ResourceCountryGroupService {
 
 :::warning 提示
 
-更多关于 HTTP请求 的内容请参考：[HttpClient Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
+更多关于 HTTP请求 的内容请参考：[HttpClient Service](/en/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
 
 :::
 
@@ -271,11 +271,11 @@ export class ResourceCountryGroupService {
 
 | **dslNodeType** | **SPI.Token**     | **相关内容文档**                                             |
 | --------------- | ----------------- | ------------------------------------------------------------ |
-| view            | BaseView          | [View](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/README.md) |
-| element         | BaseElementWidget | [Element](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md) |
-| pack            | BasePackWidget    | [Pack](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/pack.md) |
-| action          | BaseActionWidget  | [Action](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/action.md) |
-| field           | BaseFieldWidget   | [Field](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/README.md) |
+| view            | BaseView          | [View](/en/DevManual/Reference/Front-EndFramework/Widget/View/README.md) |
+| element         | BaseElementWidget | [Element](/en/DevManual/Reference/Front-EndFramework/Widget/element.md) |
+| pack            | BasePackWidget    | [Pack](/en/DevManual/Reference/Front-EndFramework/Widget/pack.md) |
+| action          | BaseActionWidget  | [Action](/en/DevManual/Reference/Front-EndFramework/Widget/action.md) |
+| field           | BaseFieldWidget   | [Field](/en/DevManual/Reference/Front-EndFramework/Widget/Field/README.md) |
 
 
 ## （五）Component
@@ -304,9 +304,9 @@ export class ResourceCountryGroupService {
 
 几乎所有表达式中都包含了 `activeRecord` 、`rootRecord`、`openerRecord` 这些上下文变量，但它们在不同的组件和视图中表示的含义有所不同。不仅如此，你还可以在表达式中使用一些 Oinone 内置函数进行高级计算，甚至还可以自定义一些函数用在表达式中。
 
-更多表达式的内容请参考：[Expression Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/expression-service.md)
+更多表达式的内容请参考：[Expression Service](/en/DevManual/Reference/Front-EndFramework/Services/expression-service.md)
 
-更多内置函数的内容请参考：[Function API - 内置函数](/zh-cn/DevManual/Reference/Back-EndFramework/functions-API.md#五、内置函数)
+更多内置函数的内容请参考：[Function API - 内置函数](/en/DevManual/Reference/Back-EndFramework/functions-API.md#五、内置函数)
 
 :::
 

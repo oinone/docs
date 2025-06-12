@@ -14,9 +14,9 @@ Oinone 提供了三种设置自动验证约束规则的方法：UI约束、JAVA 
 
 # 一、SQL 约束
 
-参考：与此主题相关的文档可在 “[模型](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md)” 以及 对应数据库（如[Mysql](https://dev.mysql.com/doc/refman/8.0/en/create-table.html)）的DDL文档中找到。
+参考：与此主题相关的文档可在 “[模型](/en/DevManual/Reference/Back-EndFramework/ORM-API.md)” 以及 对应数据库（如[Mysql](https://dev.mysql.com/doc/refman/8.0/en/create-table.html)）的DDL文档中找到。
 
-在 “[模型与基础字段](/zh-cn/DevManual/Tutorials/Back-endFramework/chapter3-models-and-basic-fields.md)” 章节中，我们曾介绍过可通过传递配置属性作为参数来对字段进行配置，同时也讲解了其与前端默认视觉效果和交互规则的关联。接下来，我们将进一步介绍几个与数据库相关的属性。
+在 “[模型与基础字段](/en/DevManual/Tutorials/Back-endFramework/chapter3-models-and-basic-fields.md)” 章节中，我们曾介绍过可通过传递配置属性作为参数来对字段进行配置，同时也讲解了其与前端默认视觉效果和交互规则的关联。接下来，我们将进一步介绍几个与数据库相关的属性。
 
 + @Field(index)，请求 Oinone 在该列上创建数据库索引。
 + @Field(unique)，请求 Oinone 在该列上创建数据库唯一索引。
@@ -72,7 +72,7 @@ Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Da
 
 # 二、校验约束
 
-参考：与此主题相关的文档可在 “[Validation](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md#2、校验约束-validation)” 中找到。
+参考：与此主题相关的文档可在 “[Validation](/en/DevManual/Reference/Back-EndFramework/ORM-API.md#2、校验约束-validation)” 中找到。
 
 :::info 目标：在本节结束时
 

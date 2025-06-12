@@ -7,7 +7,7 @@ category:
 order: 5
 prev:
   text: 集成接口 API（EIP API）
-  link: /zh-cn/DevManual/Reference/StandardModule/EIP-API.md
+  link: /en/DevManual/Reference/StandardModule/EIP-API.md
 ---
 # 一、SPI 机制
 

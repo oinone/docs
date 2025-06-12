@@ -12,7 +12,7 @@ order: 13
 
 # 一、Link模块
 
-参考：与此主题相关的文档可在 “[Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md)” 中找到。
+参考：与此主题相关的文档可在 “[Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md)” 中找到。
 
 :::info 目标：在本节结束时
 

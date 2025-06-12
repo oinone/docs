@@ -18,7 +18,7 @@ order: 7
 + 导入项目信息时，如果发现项目类型的名称不存在，则自动创建
 + 导出项目信息时，需要导出对应的报销单信息
 
-参考：与此主题相关的文档可在 “[标准模块 - 文件导入导出](/zh-cn/DevManual/Reference/StandardModule/import-export.md)” 中找到。
+参考：与此主题相关的文档可在 “[标准模块 - 文件导入导出](/en/DevManual/Reference/StandardModule/import-export.md)” 中找到。
 
 # 一、为 “项目信息” 创建导入模板
 

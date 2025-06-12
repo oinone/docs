@@ -6,7 +6,7 @@ category:
 order: 1
 prev:
   text: 源码安装
-  link: /zh-cn/InstallOrUpgrade/CommunityEdition/source-code-installation.md
+  link: /en/InstallOrUpgrade/CommunityEdition/source-code-installation.md
 ---
 # 一、概述
 每个构建版本都隔离在其自己的容器（Linux 命名空间容器）中。本文档提供如何安装“包含所有中间件及前后端工程”镜像的说明
@@ -36,7 +36,7 @@ prev:
 # 二、安装MySQL数据库
 如果没有现成的数据库，可自行到官网下载安装：[https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)。
 
-参考[MySQL安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
+参考[MySQL安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
 
 # 三、安装docker
 如果没有Docker的话，请自行到官网下载安装：[https://www.docker.com/get-started/](https://www.docker.com/get-started/)

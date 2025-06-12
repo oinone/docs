@@ -6,10 +6,10 @@ category:
 order: 5
 prev:
   text: Content guidelines
-  link: /zh-cn/Contribute/DocumentationContributions/content-guidelines.md
+  link: /en/Contribute/DocumentationContributions/content-guidelines.md
 next:
   text: 软件使用许可和合约
-  link: /zh-cn/software-licenses.md
+  link: /en/software-licenses.md
 ---
 #  Oinone 前端使用的第三方开源软件声明：
 

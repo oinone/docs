@@ -12,13 +12,13 @@ dir:
   order: 6
 prev:
   text: DSL
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/DSL.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/DSL.md
 next:
   text: Table
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/table.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/View/table.md
 
 ---
-在我们之前学习的 “[精通前端框架 - 前端框架概览](/zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/chapter1-front-end-overview.md)” 章节中，我们已经对 Oinone 中所有的元数据进行了简单的概述。那么，在这一章节中，我们将对 “视图” 这一类组件进行较为完整的介绍。
+在我们之前学习的 “[精通前端框架 - 前端框架概览](/en/DevManual/Tutorials/MasterTheFront-endFramework/chapter1-front-end-overview.md)” 章节中，我们已经对 Oinone 中所有的元数据进行了简单的概述。那么，在这一章节中，我们将对 “视图” 这一类组件进行较为完整的介绍。
 
 # 一、视图组件
 
@@ -214,7 +214,7 @@ next:
 
 ## （五）结束语
 
-将整个页面拆分为一个一个独立的组件，最终在页面上进行拼装，形成一个完整的页面。无法避免的是，我们需要重点对数据交互进行完整设计，以保证它可以应对更多变化，这无疑增加了开发人员的理解负担。我们在实现整个 Widget 框架过程中，尽可能用简单的方式让开发人员将注意力专注在单个独立组件的开发中，而不需要特别关心这些数据交互的机制。尤其是 “[自定义字段](/zh-cn/DevManual/OperationGuide/customize-a-field-widget.md)” 章节中介绍的那样，单个字段组件无非就是渲染和数据提交这两部分，绝大多数需要重复开发的工作都被内置处理了。
+将整个页面拆分为一个一个独立的组件，最终在页面上进行拼装，形成一个完整的页面。无法避免的是，我们需要重点对数据交互进行完整设计，以保证它可以应对更多变化，这无疑增加了开发人员的理解负担。我们在实现整个 Widget 框架过程中，尽可能用简单的方式让开发人员将注意力专注在单个独立组件的开发中，而不需要特别关心这些数据交互的机制。尤其是 “[自定义字段](/en/DevManual/OperationGuide/customize-a-field-widget.md)” 章节中介绍的那样，单个字段组件无非就是渲染和数据提交这两部分，绝大多数需要重复开发的工作都被内置处理了。
 
 虽然无形中增加了开发难度，但与此同时也带来了一些便利：单个组件的复用度得到了提升，开发人员可以像任何一个第三方组件库那样提供一个一个的独立组件供业务人员使用。这在一个交互风格统一的管理信息系统中无疑是一个重大的提升。
 
@@ -224,12 +224,12 @@ next:
 
 正如我们在组件生命周期与组件行为小节中看到的示例那样，单独介绍 View 视图组件的工作原理是没有意义的，每一类视图都需要依靠一个 Element 视图组件进行具像化的展现。关于每一类视图的工作原理可查看下面这些内容：
 
-+ [表格（Table）](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/table.md)
-+ [表单（Form）](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/form.md)
-+ [详情（Detail）](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/detail.md)
-+ [画廊（Gallery）](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/gallery.md)
-+ [树（Tree）](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/tree.md)
-+ [Element 视图组件 API](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md)
++ [表格（Table）](/en/DevManual/Reference/Front-EndFramework/Widget/View/table.md)
++ [表单（Form）](/en/DevManual/Reference/Front-EndFramework/Widget/View/form.md)
++ [详情（Detail）](/en/DevManual/Reference/Front-EndFramework/Widget/View/detail.md)
++ [画廊（Gallery）](/en/DevManual/Reference/Front-EndFramework/Widget/View/gallery.md)
++ [树（Tree）](/en/DevManual/Reference/Front-EndFramework/Widget/View/tree.md)
++ [Element 视图组件 API](/en/DevManual/Reference/Front-EndFramework/Widget/element.md)
 
 </div>
 

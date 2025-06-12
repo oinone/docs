@@ -9,7 +9,7 @@ order: 2
 
 ---
 # 一、概述
-参考：与此主题相关的文档可在 “[模块定义](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md#1、moduledefinition)” 中找到。
+参考：与此主题相关的文档可在 “[模块定义](/en/DevManual/Reference/Back-EndFramework/module-API.md#1、moduledefinition)” 中找到。
 
 本章的目的是为创建一个全新的 Oinone 模块奠定基础。我们将从零开始，仅使用让 Oinone 识别我们模块所需的最少元素。在接下来的章节中，我们将逐步添加功能，以构建一个真实可行的业务案例。
 
@@ -248,7 +248,7 @@ pamirs:
 
 :::info 注意
 
-通过trutorials-boot启动前，注意检查应用的端口号与中间件的ip。参考[安装与升级](/zh-cn/InstallOrUpgrade/README.md)章节对应安装模式中关于YAML文件的配置内容
+通过trutorials-boot启动前，注意检查应用的端口号与中间件的ip。参考[安装与升级](/en/InstallOrUpgrade/README.md)章节对应安装模式中关于YAML文件的配置内容
 
 :::
 

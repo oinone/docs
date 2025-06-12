@@ -22,7 +22,7 @@ order: 2
 
 Widget 框架对组件进行了分类，通过分类特征，我们在注册组件时可以根据这些特征来决定组件的使用范围，使用时可以在所有注册的组件中选择一个最合适的组件进行渲染。
 
-在这里仅简要说明一下动作组件注册的基础内容，以确保我们在接下来的学习中可以较为容易的理解一些概念。更多组件注册的相关内容可参考：[Action](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/action.md)
+在这里仅简要说明一下动作组件注册的基础内容，以确保我们在接下来的学习中可以较为容易的理解一些概念。更多组件注册的相关内容可参考：[Action](/en/DevManual/Reference/Front-EndFramework/Widget/action.md)
 
 ## （一）动作组件的注册可选项{#动作组件的注册可选项}
 
@@ -161,7 +161,7 @@ export class RouterViewActionWidget extends ViewActionWidget {
 
 :::warning 提示
 
-关于动作组件的更多内容请参考：[Action](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/action.md)
+关于动作组件的更多内容请参考：[Action](/en/DevManual/Reference/Front-EndFramework/Widget/action.md)
 
 :::
 

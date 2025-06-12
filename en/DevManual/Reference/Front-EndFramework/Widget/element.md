@@ -9,11 +9,11 @@ category:
 order: 7
 next:
   text: View
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/View/README.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/View/README.md
 ---
 在 Oinone Kunlun 中，有这样一类组件无法在一个具体的分类中被描述，它们被称为 `元素组件`。它可以用来实现任何你想实现的功能，并把它放在页面中的任何地方。
 
-在 “[自定义视图](/zh-cn/DevManual/OperationGuide/customize-a-view-widget.md)” 章节，我们已经初步接触了 Element 视图组件，下面我们将详细介绍一下在 Oinone 中已经内置的 Element 组件、在系统中承担的角色以及它们之间的关系。
+在 “[自定义视图](/en/DevManual/OperationGuide/customize-a-view-widget.md)” 章节，我们已经初步接触了 Element 视图组件，下面我们将详细介绍一下在 Oinone 中已经内置的 Element 组件、在系统中承担的角色以及它们之间的关系。
 
 # 一、元素组件图谱
 

@@ -114,5 +114,5 @@ spring:
     name-server: 127.0.0.1:9876
 ```
 
-注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 

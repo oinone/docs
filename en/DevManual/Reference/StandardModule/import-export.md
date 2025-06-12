@@ -149,7 +149,7 @@ pamirs:
 
 ## （一）使用 ExcelHelper 创建模板
 
-在之前的 “[教程 - 文件导入导出](/zh-cn/DevManual/Tutorials/export-and-import.md)” 中我们已经初步使用过 `ExcelHelper` 工具类来创建一个简单的固定表头的 Excel 模板，先让我们简单回顾一下：
+在之前的 “[教程 - 文件导入导出](/en/DevManual/Tutorials/export-and-import.md)” 中我们已经初步使用过 `ExcelHelper` 工具类来创建一个简单的固定表头的 Excel 模板，先让我们简单回顾一下：
 
 ```java
 @Component
@@ -660,7 +660,7 @@ public class TestModelImportTemplate implements ExcelTemplateInit {
 
 不论是导入逻辑还是导出逻辑，都是使用 “扩展点” 对其逻辑进行处理的，下面分别介绍导入扩展点和导出扩展点的一些基本用法和常见场景的处理方式。
 
-扩展点使用 `expression` 属性配置表达式来决定在什么样的条件下执行对应的扩展点，表达式的用法可参考：[函数 API - 表达式](/zh-cn/DevManual/Reference/Back-EndFramework/functions-API.md)
+扩展点使用 `expression` 属性配置表达式来决定在什么样的条件下执行对应的扩展点，表达式的用法可参考：[函数 API - 表达式](/en/DevManual/Reference/Back-EndFramework/functions-API.md)
 
 ## （一）模型解释
 
@@ -899,7 +899,7 @@ public List<`Object`> fetchExportData(ExcelExportTask exportTask, ExcelDefinitio
 
 ### 2、导出时使用权限过滤
 
-由于导出功能未经过前端请求，因此 Hook 功能没有被使用，在我们进行自定义数据获取时，需要使用元位指令 API 让 Hook 生效，更多关于 元位指令 API 的内容请参考：[元位指令 API](/zh-cn/DevManual/Reference/Back-EndFramework/AdvanceAPI/meta-directive-API.md)
+由于导出功能未经过前端请求，因此 Hook 功能没有被使用，在我们进行自定义数据获取时，需要使用元位指令 API 让 Hook 生效，更多关于 元位指令 API 的内容请参考：[元位指令 API](/en/DevManual/Reference/Back-EndFramework/AdvanceAPI/meta-directive-API.md)
 
 下面这段代码示例展示了如何通过自定义数据获取达到与默认扩展点查询逻辑完全一致的情况：
 

@@ -8,7 +8,7 @@ category:
 order: 3
 next:
   text: 标准模块（Standard Modules）
-  link: /zh-cn/DevManual/Reference/StandardModule/README.md
+  link: /en/DevManual/Reference/StandardModule/README.md
 ---
 
-文档正在筹备中，敬请期待...
+The document is currently in preparation, please stay tuned ...

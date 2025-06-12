@@ -6,10 +6,10 @@ category:
 order: 3
 prev:
   text: Maven安装与注意事项
-  link: /zh-cn/InstallOrUpgrade/Dev-ENV/Maven-setup.md
+  link: /en/InstallOrUpgrade/Dev-ENV/Maven-setup.md
 next:
   text: 快速体验：docker-full方式安装
-  link: /zh-cn/InstallOrUpgrade/EnterpriseEdition/docker-full-installation.md
+  link: /en/InstallOrUpgrade/EnterpriseEdition/docker-full-installation.md
 ---
 # 一、概述
 :::info 注意
@@ -33,7 +33,7 @@ next:
 # 二、安装MySQL数据库
 如果没有现成的数据库，可自行到官网下载安装：[https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)。
 
-参考[MySQL安装与注意事项](/zh-cn/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
+参考[MySQL安装与注意事项](/en/InstallOrUpgrade/Dev-ENV/MySQL-setup.md)
 
 # 三、其他中间件部署
 | RocketMQ | 必须 | 4.7.1以上 |
@@ -297,7 +297,7 @@ cdn:
 
 :::
 
-更多oss配置请参考：[文件存储配置](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md#十四-文件存储配置-pamirs-file)
+更多oss配置请参考：[文件存储配置](/en/DevManual/Reference/Back-EndFramework/module-API.md#十四-文件存储配置-pamirs-file)
 
 ## （二）启动后端服务
 ### 1. 使用Maven启动

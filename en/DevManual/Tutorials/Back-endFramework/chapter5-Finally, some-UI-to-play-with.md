@@ -57,10 +57,10 @@ private Date date;
 private String code;
 ```
 
-code 字段设置为唯一健（关于约束的更多信息，参考教程：[Constraints 约束](/zh-cn/DevManual/Tutorials/Back-endFramework/chapter10-constraints.md)），其值为空时按规则自动生成，示例中`sequence` 设置为`SEQ` 表示规则为自增流水号，`prefix`即为编码前缀设置为以`C` 开头，`size` 即为流水号长度为5（仅流水号的有效长度），`step` 即为步长设置为1（流水号有效步长），`initial` 即为编码的流水号起始值为10000
+code 字段设置为唯一健（关于约束的更多信息，参考教程：[Constraints 约束](/en/DevManual/Tutorials/Back-endFramework/chapter10-constraints.md)），其值为空时按规则自动生成，示例中`sequence` 设置为`SEQ` 表示规则为自增流水号，`prefix`即为编码前缀设置为以`C` 开头，`size` 即为流水号长度为5（仅流水号的有效长度），`step` 即为步长设置为1（流水号有效步长），`initial` 即为编码的流水号起始值为10000
 
 # 二、UX属性
-参考：与此主题相关的文档可在 “[UX API](/zh-cn/DevManual/Reference/Back-EndFramework/UX-API.md)” 中找到。
+参考：与此主题相关的文档可在 “[UX API](/en/DevManual/Reference/Back-EndFramework/UX-API.md)” 中找到。
 
 在Oinone后端框架中模型以及字段，与交互相关的快捷属性比较有限，但Oinone为交互提供了一套完整的UX注解，可以完整的描述前端交互与展示逻辑。
 
@@ -100,7 +100,7 @@ private String code;
 
 :::warning 提示：默认值计算
 
-除了通过@Prop给组件传递defaultValue属性，还可以通过[compute](/zh-cn/DevManual/Tutorials/Back-endFramework/chapter8-field-interlinkage.md#一、compute)属性来应对更为复杂的场景。
+除了通过@Prop给组件传递defaultValue属性，还可以通过[compute](/en/DevManual/Tutorials/Back-endFramework/chapter8-field-interlinkage.md#一、compute)属性来应对更为复杂的场景。
 
 :::
 

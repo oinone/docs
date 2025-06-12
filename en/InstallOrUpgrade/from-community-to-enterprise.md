@@ -6,7 +6,7 @@ category:
 order: 4
 prev:
   text: 运行程序包方式安装
-  link: /zh-cn/InstallOrUpgrade/EnterpriseEdition/package-installation.md
+  link: /en/InstallOrUpgrade/EnterpriseEdition/package-installation.md
 ---
 在未自行修改 Oinone 框架源码的情况下，可以从社区版转向企业版。
 
@@ -29,8 +29,8 @@ prev:
 
 参考:
 
-+  [快速体验：docker-full方式安装](/zh-cn/InstallOrUpgrade/EnterpriseEdition/docker-full-installation.md)
-+  [docker-mini方式安装](/zh-cn/InstallOrUpgrade/EnterpriseEdition/docker-mini-installation.md)
++  [快速体验：docker-full方式安装](/en/InstallOrUpgrade/EnterpriseEdition/docker-full-installation.md)
++  [docker-mini方式安装](/en/InstallOrUpgrade/EnterpriseEdition/docker-mini-installation.md)
 
 # 三、业务应用升级依赖
 

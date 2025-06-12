@@ -6,10 +6,10 @@ category:
 order: 1
 prev:
   text: 贡献手册
-  link: /zh-cn/Contribute/README.md
+  link: /en/Contribute/README.md
 next:
   text: Git guidelines
-  link: /zh-cn/Contribute/DevelopmentContributions/git-guidelines.md
+  link: /en/Contribute/DevelopmentContributions/git-guidelines.md
 ---
 # Oinone 贡献者许可协议
 

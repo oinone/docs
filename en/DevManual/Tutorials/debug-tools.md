@@ -7,7 +7,7 @@ category:
 order: 9
 next:
   text: 自定义字段
-  link: /zh-cn/DevManual/OperationGuide/customize-a-field-widget.md
+  link: /en/DevManual/OperationGuide/customize-a-field-widget.md
 ---
 # 一、概述
 
@@ -210,7 +210,7 @@ PS：一般情况下，所有 Oinone 请求的 Http 状态都为 `200`，错误�
 
 ## （一）前端关闭调试工具
 
-在前端运行时环境配置中，可以通过调试配置关闭调试页面的路由，可参考：[前端 API - 环境](/zh-cn/DevManual/Reference/Front-EndFramework/environment.md)
+在前端运行时环境配置中，可以通过调试配置关闭调试页面的路由，可参考：[前端 API - 环境](/en/DevManual/Reference/Front-EndFramework/environment.md)
 
 ```javascript
 runtimeConfigResolve({
@@ -222,7 +222,7 @@ runtimeConfigResolve({
 
 ## （二）后端关闭调试接口
 
-在 Yaml 中配置 `pamirs.framework.debug.enabled` 为 `false` 可关闭调试接口，可参考：[后端 API - 模块 API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md)
+在 Yaml 中配置 `pamirs.framework.debug.enabled` 为 `false` 可关闭调试接口，可参考：[后端 API - 模块 API](/en/DevManual/Reference/Back-EndFramework/module-API.md)
 
 ```yaml
 pamirs:

@@ -10,7 +10,7 @@ category:
 order: 5
 next:
   text: Vue UI Antd
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/OioComponents/vue-UI-antd.md
+  link: /en/DevManual/Reference/Front-EndFramework/OioComponents/vue-UI-antd.md
 ---
 # 一、Reference List
 

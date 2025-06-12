@@ -8,13 +8,13 @@ dir:
   order: 1
 next:
   text: 环境准备
-  link: /zh-cn/InstallOrUpgrade/Dev-ENV/README.md
+  link: /en/InstallOrUpgrade/Dev-ENV/README.md
 ---
 这些指南提供了关于如何安装、维护和升级数式Oinone产品的说明。
 
 ::: warning 提示
 
-另请参阅[数式Oinone历史版本总览](/zh-cn/InstallOrUpgrade/version-list.md)
+另请参阅[数式Oinone历史版本总览](/en/InstallOrUpgrade/version-list.md)
 
 :::
 

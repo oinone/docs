@@ -8,7 +8,7 @@ category:
 order: 1
 prev:
   text: Gallery Field
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/gallery-field.md
+  link: /en/DevManual/Reference/Front-EndFramework/Widget/Field/gallery-field.md
 ---
 # 一、Reference List
 

@@ -8,7 +8,7 @@ category:
 order: 3
 next:
   text: Metadata Service
-  link: /zh-cn/DevManual/Reference/Front-EndFramework/Services/metadata-service.md
+  link: /en/DevManual/Reference/Front-EndFramework/Services/metadata-service.md
 ---
 # 一、Reference List
 

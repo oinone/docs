@@ -11,7 +11,7 @@ order: 3
 在上一章结尾，我们成功创建了一个 Oinone 模块。但此时它仍是个空壳，无法存储任何数据。在我们的费用模块中，我们希望将与费用相关的项目信息（名称、描述、项目类型、所属部门等）存储到数据库里。Oinone 框架提供了便于数据库交互的工具。
 
 # 一、对象关系映射（Object-Relational Mapping）
-参考：与此主题相关的文档可在 “[模型 API](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md#一、模型-model)” 中找到。
+参考：与此主题相关的文档可在 “[模型 API](/en/DevManual/Reference/Back-EndFramework/ORM-API.md#一、模型-model)” 中找到。
 
 :::info 目标：在本节结束时，应创建 `expenses_project_info`表：
 
@@ -93,7 +93,7 @@ CREATE INDEX `expenses_project_info_create_date` ON `expenses_project_info`(`cre
 >
 
 # 二、模型字段（Model fields）
-参考：与此主题相关的文档可在 “[字段 API](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md#二、字段-field)” 中找到。
+参考：与此主题相关的文档可在 “[字段 API](/en/DevManual/Reference/Back-EndFramework/ORM-API.md#二、字段-field)” 中找到。
 字段用于定义模型可以存储什么以及存储位置。字段在模型类中被定义为属性：
 
 ```java
@@ -254,7 +254,7 @@ private String name;
 >
 
 ## （三）继承字段（Inheritance Fields）
-参考：与此主题相关的文档可在 “[模型的继承](/zh-cn/DevManual/Reference/Back-EndFramework/ORM-API.md)” 中找到。
+参考：与此主题相关的文档可在 “[模型的继承](/en/DevManual/Reference/Back-EndFramework/ORM-API.md)” 中找到。
 
 你可能已经注意到，你的模型中有几个你从未定义过的字段。Oinone 会在所有模型中创建几个字段。这些字段由本模型继承自父类模型 ：
 

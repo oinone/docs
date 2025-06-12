@@ -74,10 +74,10 @@ pamirs:
       validationQuery: SELECT 1 FROM DUAL
 ```
 
-注：更多 YAML 配置请前往 [Module API](/zh-cn/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
+注：更多 YAML 配置请前往 [Module API](/en/DevManual/Reference/Back-EndFramework/module-API.md) 查阅。
 
 ## （一）连接url配置
-点击查看官方文档：[DM JDBC 编程指南](https://eco.dameng.com/document/dm/zh-cn/pm/jdbc-rogramming-guide.html)
+点击查看官方文档：[DM JDBC 编程指南](https://eco.dameng.com/document/dm/en/pm/jdbc-rogramming-guide.html)
 
 ### 1、连接串1
 ```yaml

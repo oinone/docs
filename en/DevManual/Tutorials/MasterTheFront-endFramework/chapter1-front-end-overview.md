@@ -8,7 +8,7 @@ category:
 order: 1
 prev:
   text: 精通前端框架（Master the Front-End framework）
-  link: /zh-cn/DevManual/Tutorials/MasterTheFront-endFramework/README.md
+  link: /en/DevManual/Tutorials/MasterTheFront-endFramework/README.md
 ---
 在 Oinone 中，我们将一个 Web 前端页面以及页面与页面直接的路由关系做了一定的抽象，而这些用来描述页面以及页面内容（字段、动作）的数据被称为“元数据”。了解元数据的获取及它们之间的关系是非常有必要的。
 
@@ -30,7 +30,7 @@ prev:
 
 官方文档：[GraphQL 学习](https://graphql.cn/learn)
 
-更多关于 GraphQL 协议相关的内容请参考：[GraphQL Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/graphQL-service.md)
+更多关于 GraphQL 协议相关的内容请参考：[GraphQL Service](/en/DevManual/Reference/Front-EndFramework/Services/graphQL-service.md)
 
 :::
 
@@ -227,7 +227,7 @@ variables 参数的获取：右键点击 variables，选中 “`复制对象（C
 
 批量请求是我们使用 `apollo-client` 工具包提供的自动批量能力，当我们在使用 `Promise` 异步时，在同一时钟周期内的相同模块的请求将被合并，自动组合为这样的批量请求。
 
-更多关于 `HTTP请求` 的内容请参考：[HttpClient Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
+更多关于 `HTTP请求` 的内容请参考：[HttpClient Service](/en/DevManual/Reference/Front-EndFramework/Services/httpclient-service.md)
 
 :::
 
@@ -520,7 +520,7 @@ http://127.0.0.1:8080/page;module=resource;viewType=TABLE;model=resource.Resourc
 
 :::warning 提示
 
-更多关于页面渲染的内容请参考：[DSL](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/DSL.md)
+更多关于页面渲染的内容请参考：[DSL](/en/DevManual/Reference/Front-EndFramework/Widget/DSL.md)
 
 :::
 
@@ -538,7 +538,7 @@ http://127.0.0.1:8080/page;module=resource;viewType=TABLE;model=resource.Resourc
 
 对于 Oinone 的新手来说，我们建议不需要过多的了解元数据的详细内容，只需要根据这篇文章内容对元数据的整体概念有初步认识即可。
 
-更多关于元数据的内容可参考：[Metadata Service](/zh-cn/DevManual/Reference/Front-EndFramework/Services/metadata-service.md)
+更多关于元数据的内容可参考：[Metadata Service](/en/DevManual/Reference/Front-EndFramework/Services/metadata-service.md)
 
 :::
 
@@ -584,7 +584,7 @@ http://127.0.0.1:8080/page;module=resource;viewType=TABLE;model=resource.Resourc
 
 :::warning 提示
 
-更多关于字段的内容请参考：[Field](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
+更多关于字段的内容请参考：[Field](/en/DevManual/Reference/Front-EndFramework/Widget/Field/README.md)
 
 :::
 
@@ -608,7 +608,7 @@ countByWrapper(queryWrapper: { rsql: string }): Promise<number>
 
 :::warning 提示
 
-更多关于自定义请求的内容请参考：[Customize GraphQL Request](/zh-cn/DevManual/OperationGuide/customize-graphQL-request.md)
+更多关于自定义请求的内容请参考：[Customize GraphQL Request](/en/DevManual/OperationGuide/customize-graphQL-request.md)
 
 :::
 
@@ -638,7 +638,7 @@ countByWrapper(queryWrapper: { rsql: string }): Promise<number>
 
 :::warning 提示
 
-更多关于动作的内容可参考：[Action](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/action.md)
+更多关于动作的内容可参考：[Action](/en/DevManual/Reference/Front-EndFramework/Widget/action.md)
 
 :::
 
@@ -697,7 +697,7 @@ http://127.0.0.1:8080/page;module=resource;viewType=FORM;model=resource.Resource
 
 :::warning 提示
 
-`path` 参数暂时不涉及，它是权限相关的参数，更多关于权限的内容可参考：[Security in Oinone](/zh-cn/DevManual/Reference/Back-EndFramework/security-in-oinone.md)
+`path` 参数暂时不涉及，它是权限相关的参数，更多关于权限的内容可参考：[Security in Oinone](/en/DevManual/Reference/Back-EndFramework/security-in-oinone.md)
 
 :::
 
@@ -763,7 +763,7 @@ http://127.0.0.1:8080/page;module=resource;viewType=FORM;model=resource.Resource
 
 :::warning 提示
 
-更多关于母版（Mask）的内容请参考：[Mask](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/mask.md)
+更多关于母版（Mask）的内容请参考：[Mask](/en/DevManual/Reference/Front-EndFramework/Widget/mask.md)
 
 :::
 
@@ -810,9 +810,9 @@ http://127.0.0.1:8080/page;module=resource;viewType=FORM;model=resource.Resource
 
 :::warning 提示
 
-更多关于布局（Layout）的内容请参考：[Layout](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/layout.md)
+更多关于布局（Layout）的内容请参考：[Layout](/en/DevManual/Reference/Front-EndFramework/Widget/layout.md)
 
-更多关于元素组件的内容请参考：[Element](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/element.md)
+更多关于元素组件的内容请参考：[Element](/en/DevManual/Reference/Front-EndFramework/Widget/element.md)
 
 :::
 
@@ -854,7 +854,7 @@ http://127.0.0.1:8080/page;module=resource;viewType=FORM;model=resource.Resource
 
 :::warning 提示
 
-更多 DSL 的内容请参考：[DSL](/zh-cn/DevManual/Reference/Front-EndFramework/Widget/DSL.md)
+更多 DSL 的内容请参考：[DSL](/en/DevManual/Reference/Front-EndFramework/Widget/DSL.md)
 
 :::
 
